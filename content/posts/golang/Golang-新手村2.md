@@ -40,15 +40,15 @@ Golang 的函式是由定義函式的關鍵字、函式名稱、參數類型和�
 其中`swap`是函式名稱，`x, y string`是參數。`x`與`y`是參數名稱，`string`是參數類型。
 上述函式的功能是將輸入的兩個文字交換順序。
 
-{{< admonition type=tip title="Tips" open=true >}}
+{{< alert "lightbulb" >}}
   1. 函式可以攜帶 0 個或多個參數，並且可以有 0 個或多個回傳值。
   2. `x, y string` 是 `x string, y string` 的簡寫。
-{{< /admonition >}}
-{{< admonition type=warning title="Warnings" open=true >}}
+{{< /alert >}}
+{{< alert "triangle-exclamation" >}}
   參數類型或回傳值類型必須寫在名稱之後，例如：
   ```golang
   x, y int
   ```
-{{< /admonition >}}
+{{< /alert >}}
 
 ## 小結
