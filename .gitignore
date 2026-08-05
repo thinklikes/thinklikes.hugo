@@ -1,2 +1,7 @@
 .idea
 .DS_Store
+
+# Hugo 建置產物(由 Cloudflare Pages 於部署時建置)
+/public/
+/resources/_gen/
+.hugo_build.lock

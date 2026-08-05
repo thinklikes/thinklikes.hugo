@@ -29,5 +29,3 @@ disableInlineCSS = true
 [services.disqus]
 shortname = 'your-disqus-shortname'
 
-[build]
-cleanDestinationDir = true
