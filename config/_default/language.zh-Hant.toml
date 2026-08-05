@@ -3,20 +3,20 @@ languageName = "繁體中文"
 languageDirection = "ltr"
 weight = 1
 
-title = "沒有轉生就成為工程師了|中年碼農的魔法書"
-copyright = "&copy; 沒有轉生就成為工程師了"
+title = "中年碼農的職場奇妙冒險"
+copyright = "&copy; 中年碼農的職場奇妙冒險"
 
 [params]
 dateFormat = "2 January 2006"
 
 mainSections = ["posts"]
-description = "中年碼農的轉職魔法書:以新手小白視角撰寫的 Golang、n8n 自動化與 RAG / AI 實作教學,帶你在程式異世界打怪升級。"
+description = "中年碼農的職場奇妙冒險:以新手小白視角撰寫的 RAG、AI 應用與自動化實作教學,還有中年工程師的職場觀察。"
 images = ["img/avatar.png"]
 
 [params.author]
-name = "力量型鍵盤魔法使"
+name = "中年碼農"
 image = "img/avatar.png"
-#headline = "I'm only human"
+headline = "寫程式寫到中年,還在冒險"
 #bio = "A little bit about you"
 # links = [
 #   { email = "mailto:hello@your_domain.com" },
