@@ -1,5 +1,6 @@
 ---
 title: "我在現實生活中用 n8n 開外掛(2) - 透過 Gmail SMTP server 寄信"
+description: "教你申請 Google 應用程式密碼,在 n8n 設定 Gmail SMTP 憑證與 Send Email 節點,實現自動化寄信,新手也能快速上手。"
 date: 2025-06-11
 draft: false
 tags: [ 'n8n', '自動化', 'Triggers' ]

@@ -9,8 +9,9 @@ copyright = "&copy; 沒有轉生就成為工程師了"
 [params]
 dateFormat = "2 January 2006"
 
-# mainSections = ["section1", "section2"]
-# description = "My awesome website"
+mainSections = ["posts"]
+description = "中年碼農的轉職魔法書:以新手小白視角撰寫的 Golang、n8n 自動化與 RAG / AI 實作教學,帶你在程式異世界打怪升級。"
+images = ["img/avatar.png"]
 
 [params.author]
 name = "力量型鍵盤魔法使"

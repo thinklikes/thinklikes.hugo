@@ -3,6 +3,7 @@ lastmod = '2025-04-22'
 date = '2025-04-18'
 draft = true
 title = 'Golang 新手村(1) - Golang 基本語法'
+description = '以新手視角導讀 A Tour of Go,認識 package、import 與 main 函式等 Golang 基本語法結構,踏出成為 Go 冒險者的第一步。'
 tags = ['golang']
 categories = ['golang 新手村']
 +++

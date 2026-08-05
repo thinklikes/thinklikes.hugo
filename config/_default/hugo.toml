@@ -6,7 +6,8 @@ baseURL = "https://program-isekai.pages.dev/"
 defaultContentLanguage = "zh-Hant"
 
 enableRobotsTXT = true
-summaryLength = 0
+hasCJKLanguage = true
+summaryLength = 70
 
 [pagination]
 pagerSize = 10
