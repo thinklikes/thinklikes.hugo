@@ -25,7 +25,7 @@
 1. **討論大綱**:作者與 Claude 就主題討論出該篇大綱
 2. **作者執筆**:作者依大綱自行撰寫內容(`draft = true`,開發於 feature branch)
 3. **交叉 review**:找 Claude review、也找 ChatGPT review,作者定稿
-4. **上稿發布**:`draft = false` 後開 PR,**merge 進 master 即自動發布**(Cloudflare Pages 自動建置,build command `hugo --gc --minify`,`HUGO_VERSION=0.145.0`)
+4. **上稿發布**:`draft = false` 後開 PR;**PR 一律由作者確認後才合併,不自動合併**。merge 進 master 即自動發布(Cloudflare Pages 自動建置,build command `hugo --gc --minify`,`HUGO_VERSION=0.145.0`)
 
 ## 章節規劃與狀態
 
