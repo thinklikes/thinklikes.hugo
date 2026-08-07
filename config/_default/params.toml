@@ -64,7 +64,7 @@ groupByYear = true
 paginationWidth = 1
 
 [sitemap]
-excludedKinds = ["taxonomy", "term"]
+excludedKinds = ["taxonomy"]
 
 [taxonomy]
 showTermCount = true

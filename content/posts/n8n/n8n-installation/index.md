@@ -1,8 +1,9 @@
 +++
 lastmod = '2025-05-09T14:39:04+08:00'
 date = 2025-05-30
-draft = false
+draft = true
 title = '我在現實生活中用 n8n 開外掛(1) - 在本地環境安裝 n8n'
+description = '手把手教你用 Docker Compose 在本地安裝 n8n 與 PostgreSQL,完成初始設定並跑起第一個工作流程範本,快速體驗 n8n 自動化的魅力。'
 tags = ['n8n', '自動化']
 topics = ['我在現實生活中用 n8n 開外掛']
 +++
