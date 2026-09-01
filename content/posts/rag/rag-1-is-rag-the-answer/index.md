@@ -2,7 +2,7 @@
 lastmod = '2026-08-07'
 date = '2026-08-07'
 draft = false
-title = '新手小白自建 RAG（1） - 中年碼農的新公司，與一個天真的知識庫狂想'
+title = '中年碼農的 AI 職場冒險記（1） - 新公司，與一個天真的知識庫狂想'
 description = '中年 CRUD 工程師上岸新公司，文件偏少、坑很多。推廣 mcp-memory-service 同步坑點卻乏人問津，一則客服訊息讓他萌生天真狂想：拿它來架公司知識庫。'
 tags = ['RAG', 'LLM', 'AI', 'MCP']
 topics = ['新手小白自建 RAG']
