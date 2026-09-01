@@ -4,7 +4,7 @@ draft = true
 title = '中年碼農的 AI 職場冒險記（2） - 沒有珍珠的奶茶不是珍珠奶茶，沒有資料的知識庫不是知識庫'
 description = '第一版知識庫上線了：mcp-memory-service 加一支自寫的 Slack bot。然後我發現，架服務只花一個早上，餵資料才是惡夢的開始。'
 tags = ['RAG', 'LLM', 'AI', 'MCP', 'Slack']
-topics = ['新手小白自建 RAG']
+topics = ['中年碼農的 AI 職場冒險記']
 +++
 
 ## 我有知識庫，你有資料嗎？
