@@ -10,7 +10,7 @@ copyright = "&copy; 中年碼農的職場奇妙冒險"
 dateFormat = "2 January 2006"
 
 mainSections = ["posts"]
-description = "中年碼農的職場奇妙冒險:以新手小白視角撰寫的 RAG、AI 應用與自動化實作教學,還有中年工程師的職場觀察。"
+description = "中年碼農的職場奇妙冒險:一個中年工程師在公司內從零建立各種 AI 應用的第一手紀錄——RAG 知識庫、自動化與踩坑實錄,還有中年工程師的職場觀察。"
 images = ["img/avatar.png"]
 
 [params.author]
