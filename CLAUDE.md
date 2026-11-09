@@ -29,6 +29,6 @@
 - **大綱一律視為待定**：章節表、各篇結構都可能在執筆時改掉，規劃文件只記素材與已完成段落，不預先規範走法。文章實際內容以 `content/posts/` 底下的檔案為準。
 - 系列命名已統一為 `中年碼農的 AI 職場冒險記`：文章大標題前綴為 `中年碼農的 AI 職場冒險記（N）`，三篇文章的 `topics` 也已一併改為同名（blog 尚未公開，網址變動無影響）。站台 description 同步改為新的敘事定位。
 - 原「先搞懂 RAG 是怎麼運作的」草稿（`content/posts/rag/rag-2-how-rag-works/`）降為素材保留，維持 draft，視各篇需要拆併。
-- PR #6（規劃文件更新，分支 `claude/new-session-syho52`）：base 已修正為 master、無衝突，待作者確認合併。
+- PR #7（第 2 篇草稿、系列命名統一、規劃文件與 CLAUDE.md，分支 `claude/new-session-syho52`）：取代已關閉的 #6，base 為 master，待作者確認合併。
 - 待作者確認：第 2 篇定稿（通讀、清除註解、`draft = false`）後再開 PR／合併。
 - side project 下一個里程碑：手刻 RAG 開工（Ollama + Chroma 跑起來）。
