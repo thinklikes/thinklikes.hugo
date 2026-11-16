@@ -1,6 +1,6 @@
 +++
-date = '2026-11-12'
-draft = true
+date = '2026-11-16'
+draft = false
 title = 'AI 省時小工具（1） - ChatGPT 畫好的貼圖，怎麼切好、上架到 LINE？'
 description = 'ChatGPT 畫完九宮格貼圖之後，切圖、去背、做封面、寫上架文字，其實也能丟回給 ChatGPT。附上我用過的提示詞。'
 tags = ['LINE 貼圖', 'ChatGPT', 'AI 工具']
