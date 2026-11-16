@@ -30,4 +30,5 @@
 - 系列命名已統一為 `中年碼農的 AI 職場冒險記`：文章大標題前綴為 `中年碼農的 AI 職場冒險記（N）`，三篇文章的 `topics` 也已一併改為同名（blog 尚未公開，網址變動無影響）。站台 description 同步改為新的敘事定位。
 - 原「先搞懂 RAG 是怎麼運作的」草稿（`content/posts/rag/rag-2-how-rag-works/`）降為素材保留，維持 draft，視各篇需要拆併。
 - PR #6（規劃文件更新，分支 `claude/new-session-syho52`）：base 已修正為 master、無衝突，待作者確認合併。
+- **新系列「AI 省時小工具」**（給不懂技術的讀者，`content/posts/ai-tools/`）：第 1 篇 LINE 貼圖上架教學已改為發布（2026-11-16，`draft = false`，PR #10 待作者確認合併）。截圖待補，Creators Market 介面名稱尚未核對。
 - side project 下一個里程碑：手刻 RAG 開工（Ollama + Chroma 跑起來）。
