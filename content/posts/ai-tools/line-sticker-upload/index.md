@@ -17,7 +17,7 @@ topics = ['AI 省時小工具']
 
 ## 動手前
 
-我用的是免費版 ChatGPT。<!-- 【作者補：過程中有沒有用完額度、要等多久】 --> 上架要用 LINE 帳號登入 [LINE Creators Market](https://creator.line.me/zh-hant/)，電腦操作最順。
+我用的是免費版 ChatGPT。<!-- 【作者補：過程中有沒有用完額度、要等多久】 --> 上架要用 LINE 帳號登入 [LINE Creators Market](https://creator.line.me/zh-hant/)。建議使用電腦操作較為順暢。
 
 LINE 的規格很龜毛，我整理成一張表，後面的提示詞都已經照這張表寫好了：
 
