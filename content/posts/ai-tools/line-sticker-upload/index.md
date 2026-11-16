@@ -17,7 +17,7 @@ topics = ['AI 省時小工具']
 
 ## 動手前
 
-我用的是免費版 ChatGPT。免費版有使用額度限制，額度用完時，可以分幾次使用提示詞來產生圖片。 上架要用 LINE 帳號登入 [LINE Creators Market](https://creator.line.me/zh-hant/)。建議使用電腦操作較為順暢。
+我用的是免費版 ChatGPT。免費版有使用額度限制，額度用完時，可以分幾次使用提示詞來產生圖片。上架要用 LINE 帳號登入 [LINE Creators Market](https://creator.line.me/zh-hant/)。建議使用電腦操作較為順暢。
 
 LINE 對貼圖有明確的規格要求，我整理成一張表，後面的提示詞都已經照這張表寫好了：
 
