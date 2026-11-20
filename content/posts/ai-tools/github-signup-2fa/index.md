@@ -73,7 +73,6 @@ GitHub 也支援用簡訊收驗證碼，但官方比較建議使用驗證器 App
 3. 在「Two-factor authentication」區塊，點 **Enable two-factor authentication**
 
 ![github-settings-menu.png](github-settings-menu.png "從大頭貼選單進入 Settings")
-<!-- 截圖：點右上角大頭貼後展開的選單，標出 Settings -->
 
 ![github-password-and-authentication.png](github-password-and-authentication.png "Password and authentication 頁面")
 <!-- 截圖：左側選單 Access 區塊的 Password and authentication，以及頁面上的 Enable two-factor authentication 按鈕 -->
