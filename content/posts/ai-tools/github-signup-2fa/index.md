@@ -30,19 +30,24 @@ GitHub 的介面是英文，下面會把每個要按的按鈕原文標出來，�
 ## 步驟一：註冊 GitHub 帳號
 
 1. 打開 [GitHub 註冊頁面](https://github.com/signup)
-2. 依照畫面提示，填入 Email、密碼和使用者名稱（Username）
-3. 完成畫面上的真人驗證
-4. 到信箱收 GitHub 寄來的驗證碼，貼回註冊頁面，完成 Email 驗證
+2. 依序填入以下欄位：
+   - **Email**：常用的信箱
+   - **Password**：密碼至少 15 個字元，或至少 8 個字元並包含數字和小寫英文字母
+   - **Username**：使用者名稱，只能用英文字母、數字和單一連字號（`-`），開頭和結尾不能是連字號
+   - **Your Country/Region**：選擇所在的國家或地區，例如 Taiwan
+3. **Email preferences** 是是否收 GitHub 的產品消息，可以不勾
+4. 按 **Create account**
+5. 完成畫面上的真人驗證
+6. 到信箱收 GitHub 寄來的驗證碼，貼回註冊頁面，完成 Email 驗證
 
 ![github-signup-form.png](github-signup-form.png "GitHub 註冊頁面")
-<!-- 截圖：github.com/signup 註冊頁面，填寫 Email、密碼、使用者名稱的畫面 -->
 
 ![github-signup-email-code.png](github-signup-email-code.png "輸入 Email 驗證碼")
 <!-- 截圖：要求輸入 Email 驗證碼的頁面（可另附信箱收到的驗證信） -->
 
 使用者名稱之後會出現在個人頁面的網址裡（例如 `github.com/你的名字`），建議取一個自己看得順眼、以後不會想改的名字。
 
-如果習慣用 Google 或 Apple 帳號登入，也可以在註冊頁面直接選用，例如 **Continue with Google**。
+如果習慣用 Google 或 Apple 帳號登入，也可以直接按頁面上方的 **Continue with Google** 或 **Continue with Apple**，就不用另外設定密碼。
 
 如果註冊時出現「This email can't be used」或「We couldn't create your account」，可以換一個瀏覽器、清除 Cookie，或過一段時間再試一次。
 
