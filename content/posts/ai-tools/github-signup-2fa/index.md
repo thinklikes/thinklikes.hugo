@@ -11,8 +11,6 @@ topics = ['AI 省時小工具']
 
 很多 AI 工具、開源專案和教學，都會請你先準備一個 GitHub 帳號。這篇會從註冊帳號開始，接著把兩步驟驗證（Two-factor authentication，簡稱 2FA）開起來，最後把救援碼存好。整個流程大約十五分鐘。
 
-【作者補：自己為什麼要寫這篇、身邊的人卡在哪裡】
-
 ---
 
 ## 動手前
@@ -41,9 +39,6 @@ GitHub 的介面是英文，下面會把每個要按的按鈕原文標出來，�
 6. 到信箱收 GitHub 寄來的驗證碼，貼回註冊頁面，完成 Email 驗證
 
 ![github-signup-form.png](github-signup-form.png "GitHub 註冊頁面")
-
-![github-signup-email-code.png](github-signup-email-code.png "輸入 Email 驗證碼")
-<!-- 截圖：要求輸入 Email 驗證碼的頁面（可另附信箱收到的驗證信） -->
 
 使用者名稱之後會出現在個人頁面的網址裡（例如 `github.com/你的名字`），建議取一個自己看得順眼、以後不會想改的名字。
 
