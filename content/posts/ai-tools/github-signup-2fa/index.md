@@ -47,7 +47,7 @@ GitHub 的介面是英文，下面會把每個要按的按鈕原文標出來，�
 
 使用者名稱之後會出現在個人頁面的網址裡（例如 `github.com/你的名字`），建議取一個自己看得順眼、以後不會想改的名字。
 
-如果習慣用 Google 或 Apple 帳號登入，也可以直接按頁面上方的 **Continue with Google** 或 **Continue with Apple**，就不用另外設定密碼。
+如果習慣用 Google 或 Apple 帳號登入，也可以直接按頁面上方的 **Continue with Google** 或 **Continue with Apple** 註冊。
 
 如果註冊時出現「This email can't be used」或「We couldn't create your account」，可以換一個瀏覽器、清除 Cookie，或過一段時間再試一次。
 
