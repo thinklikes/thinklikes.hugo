@@ -83,7 +83,6 @@ GitHub 也支援用簡訊收驗證碼，但官方比較建議使用驗證器 App
 ![github-2fa-qrcode.png](github-2fa-qrcode.png "掃描 QR code")
 
 ![authenticator-app-code.png](authenticator-app-code.png "驗證器 App 顯示的六位數驗證碼")
-<!-- 截圖：驗證器 App 掃描完成後，顯示 GitHub 六位數驗證碼的畫面（數字可打馬賽克） -->
 
 如果手機掃不到 QR code，可以點 QR code 下方的 **setup key**，把出現的一串英數字手動輸入到驗證器 App 裡。
 
