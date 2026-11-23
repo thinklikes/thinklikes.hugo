@@ -101,6 +101,15 @@ topics = ['<系列名>']
 - 畫面裡有 QR code、驗證碼、救援碼、Email、電話、訂單等個資時，在註解裡提醒打馬賽克。
 - 圖放在對應步驟的操作清單之後；一個步驟最多兩三張，不要每一行都配圖。
 
+封面圖：用 `scripts/make_cover.py` 產生 `feature.png`（白底、固定版型，每篇只換標題、主色、圖示），例如：
+
+```bash
+python3 scripts/make_cover.py --num 2 --title "註冊 GitHub" --title "開啟兩步驟驗證" \
+  --color 1f883d --icon lock --out content/posts/ai-tools/github-signup-2fa/feature.png
+```
+
+主色取該篇主角工具的品牌色；新圖示加在腳本的 `ICONS`。
+
 ---
 
 ## 五、語氣與用字
