@@ -127,7 +127,7 @@ QR code 和 setup key 等同於驗證碼的鑰匙，不要截圖分享給別人�
 
 開啟後的 28 天內，GitHub 會確認你能不能正常使用兩步驟驗證。這段期間只要正常登入、輸入過一次驗證碼就可以了。
 
-如果手機不在身邊，或驗證器 App 被刪掉了，可以在這個畫面點 **More options**，選 **2FA recovery code**，輸入其中一組救援碼，再按 **Verify**。用過的那一組就不能再用了。
+如果手機不在身邊，或驗證器 App 被刪掉了，可以在上面這個輸入驗證碼的畫面點 **More options**，選 **2FA recovery code**，輸入其中一組救援碼，再按 **Verify**。用過的那一組就不能再用了。
 
 {{< alert icon="triangle-exclamation" >}}
 GitHub 不會打電話或傳訊息跟你要驗證碼或救援碼。有人跟你要，就是詐騙。
