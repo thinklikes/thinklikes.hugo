@@ -97,11 +97,10 @@ QR code 和 setup key 等同於驗證碼的鑰匙，不要截圖分享給別人�
 
 輸入驗證碼之後，GitHub 會給你一組救援碼（Recovery codes），總共 16 組。手機遺失、App 被刪掉的時候，可以用救援碼登入，每一組只能用一次。
 
-1. 在「Save your recovery codes」底下，點 **Download**，把檔案存下來。檔名是 `github-recovery-codes.txt`，通常會在電腦的「下載」資料夾裡
+1. 在「Download your recovery codes」頁面，點 **Download**，把檔案存下來。檔名是 `github-recovery-codes.txt`，通常會在電腦的「下載」資料夾裡
 2. 確認存好之後，點 **I have saved my recovery codes**，兩步驟驗證就開啟完成了
 
 ![github-2fa-save-recovery-codes.png](github-2fa-save-recovery-codes.png "開啟兩步驟驗證時的救援碼頁面")
-<!-- 截圖：開啟 2FA 流程中的 Save your recovery codes 頁面，標出 Download 和 I have saved my recovery codes（救援碼請打馬賽克） -->
 
 存放救援碼的建議：
 
