@@ -26,7 +26,7 @@
 3. 文章內不放系列規劃；**下集預告有條件允許**：僅在該篇內容寫不完、有未收尾的內容要留到下一篇時，才可在文中輕量帶過（只講未寫完的內容，不承諾題目與時程）。規劃文件的章節表不必照著做；文末固定加註「*本文由 AI 輔助潤稿*」。
 4. 每篇檢查 `docs/rag-series-plan.md` 的「寫作原則」與「排版與風格偏好」清單。
 
-## 目前進度（2026-11-16 更新）
+## 目前進度（2026-11-23 更新）
 
 - 第 1 篇已發布（2026-08-07）。
 - **第 2 篇已發布（2026-11-12，`draft = false`，PR #8 已合併）**（故事篇「沒有珍珠的奶茶不是珍珠奶茶，沒有資料的知識庫不是知識庫」）：兩個惡夢（寫入被拒、搜不到）加小結已成稿；top-k 漏資訊與調降重複判斷門檻移出，留給下一篇。小結由作者改寫（結論：建立 RAG 需要公司上下齊心協力，末尾預告服務啟用前的其他障礙，屬「寫不完」條件下的預告），不加「學到一課」、不收加薪哏。
@@ -35,5 +35,5 @@
 - 原「先搞懂 RAG 是怎麼運作的」草稿（`content/posts/rag/rag-2-how-rag-works/`）已刪除；內容可從 git 歷史取回，素材（開書考試比喻、五步驟流程圖、技術選型）改記在規劃文件。
 - PR #7（第 2 篇草稿、系列命名統一、規劃文件與 CLAUDE.md）已於 2026-11-09 合併；之後分支 `claude/new-session-syho52` 新增的 commit（刪除素材草稿、第 3 篇構想、本檔進度）由 PR #9 合併進 master，待作者確認合併。
 - **下一篇構想（暫列第 3 篇，未動筆）**：無意中發現 SBE，整理出知識庫指引（A 篇）；QA 工作流（TARS）另開 B 篇。大綱草案與待補素材見規劃文件「第 3 篇（暫，構想中）」。第 2 篇小結的預告句與此篇的落差，作者決定先不處理。
-- **新系列「AI 省時小工具」**（給不懂技術的讀者，`content/posts/ai-tools/`）：第 1 篇 LINE 貼圖上架教學已發布（2026-11-16，`draft = false`，PR #10 已合併）。截圖待補，Creators Market 介面名稱尚未核對。兩篇封面（`feature.png`）都由 `scripts/make_cover.py` 產生（白底、灰色系列標籤、思源黑體 Bold、圖示用工具品牌色）。第 2 篇 GitHub 註冊與開啟 2FA 教學（`content/posts/ai-tools/github-signup-2fa/`）已定稿，`draft = false`，9 張截圖齊全，PR #11 待作者合併。
+- **新系列「AI 省時小工具」**（給不懂技術的讀者，`content/posts/ai-tools/`）：第 1 篇 LINE 貼圖上架教學已發布（2026-11-16，`draft = false`，PR #10 已合併）。截圖待補，Creators Market 介面名稱尚未核對。兩篇封面（`feature.png`）都由 `scripts/make_cover.py` 產生（白底、灰色系列標籤、思源黑體 Bold、圖示用工具品牌色）。第 2 篇 GitHub 註冊與開啟 2FA 教學（`content/posts/ai-tools/github-signup-2fa/`）已定稿，`draft = false`，9 張截圖齊全，PR #11 已合併。第 3 篇「用 ChatGPT 串接 GitHub 做個人網站」（`content/posts/ai-tools/chatgpt-github-pages-website/`）草稿完成，`draft = true`，流程依作者提供的教學（預設 ChatGPT 可直接推送 commit，GitHub Pages 發布），截圖待補；封面新增 `web` 圖示（GitHub 藍 0969da）。
 - side project 下一個里程碑：手刻 RAG 開工（Ollama + Chroma 跑起來）。
