@@ -55,6 +55,7 @@ def main():
     p.add_argument("--title", action="append", required=True, help="標題，一行一個，最多兩行")
     p.add_argument("--color", required=True, help="主色 hex，例如 1f883d")
     p.add_argument("--icon", choices=ICONS, required=True)
+    p.add_argument("--icon-color", help="圖示顏色 hex，預設同主色；圖示會帶由上往下的白色漸層")
     p.add_argument("--out", required=True)
     a = p.parse_args()
     c = hex2rgb(a.color)
@@ -83,10 +84,26 @@ def main():
         d.text((80, y), t, font=tf, fill=INK)
         y += int(size * 1.3)
 
-    # 右側圖示
+    # 右側圖示：先畫純色，再把純色部分換成「上淺下深」的白色漸層
+    ic = hex2rgb(a.icon_color) if a.icon_color else c
     cx, cy = 960, 290
-    d.ellipse([cx - 160, cy - 160, cx + 160, cy + 160], fill=tint(c, 0.1))
-    ICONS[a.icon](d, cx, cy, c)
+    d.ellipse([cx - 160, cy - 160, cx + 160, cy + 160], fill=tint(ic, 0.1))
+    box = (cx - 120, cy - 120, cx + 120, cy + 120)
+    layer = Image.new("RGB", (W, H), (0, 0, 0))
+    ICONS[a.icon](ImageDraw.Draw(layer), cx, cy, ic)
+    mask = Image.new("L", (box[2] - box[0], box[3] - box[1]), 0)
+    px, mp = layer.crop(box).load(), mask.load()
+    bw, bh = box[2] - box[0], box[3] - box[1]
+    grad = Image.new("RGB", (bw, bh))
+    gp = grad.load()
+    top = tint(ic, 0.45)
+    for yy in range(bh):
+        t = yy / (bh - 1)
+        col = tuple(round(top[i] + (ic[i] - top[i]) * t) for i in range(3))
+        for xx in range(bw):
+            gp[xx, yy] = col
+            mp[xx, yy] = 255 if px[xx, yy] == ic else 0
+    img.paste(grad, box[:2], mask)
 
     # 底部：分隔線＋頭像＋站名
     d.line([80, 500, W - 80, 500], fill=LINE, width=2)
