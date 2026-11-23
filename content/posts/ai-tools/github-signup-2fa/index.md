@@ -100,7 +100,7 @@ QR code 和 setup key 就像產生驗證碼的鑰匙，不要截圖分享給別�
 1. 在「Download your recovery codes」頁面，點 **Download**，把檔案存下來。檔名是 `github-recovery-codes.txt`，通常會在電腦的「下載」資料夾裡
 2. 確認存好之後，點 **I have saved my recovery codes**，兩步驟驗證就開啟完成了
 
-![github-2fa-save-recovery-codes.png](github-2fa-save-recovery-codes.png "開啟兩步驟驗證時的救援碼頁面")
+![github-2fa-save-backup-codes.png](github-2fa-save-backup-codes.png "開啟兩步驟驗證時的救援碼頁面")
 
 存放救援碼的建議：
 
@@ -114,7 +114,7 @@ QR code 和 setup key 就像產生驗證碼的鑰匙，不要截圖分享給別�
 
 如果當時沒存到，之後也可以補：到 **Settings** → **Password and authentication**，在「Recovery codes」旁邊點 **View**，就會看到下面這個頁面。按 **Download** 下載，也可以按 **Print** 印出來，或按 **Copy** 複製到密碼管理工具。
 
-![github-recovery-codes.png](github-recovery-codes.png "救援碼頁面（救援碼已打馬賽克）")
+![github-view-backup-codes.png](github-view-backup-codes.png "救援碼頁面（救援碼已打馬賽克）")
 
 ---
 
