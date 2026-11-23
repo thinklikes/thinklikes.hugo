@@ -1,6 +1,6 @@
 +++
 date = '2026-11-23'
-draft = true
+draft = false
 title = 'AI 省時小工具（3） - 用 ChatGPT 串接 GitHub，做一個自己的個人網站'
 description = '讓 ChatGPT 連上 GitHub，請它做好個人網站並直接寫進 Repository，再用 GitHub Pages 免費發布，拿到一個可以分享的網址。'
 tags = ['ChatGPT', 'GitHub', 'GitHub Pages', '個人網站']
