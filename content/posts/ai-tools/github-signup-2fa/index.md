@@ -78,10 +78,9 @@ GitHub 也支援用簡訊收驗證碼，但官方比較建議使用驗證器 App
 
 4. 畫面會出現一個 QR code。打開手機上的驗證器 App，選擇新增帳號、掃描 QR code，對準電腦螢幕掃描
 5. 掃描成功後，App 裡會多一筆 GitHub，並顯示一組六位數驗證碼，這組數字每隔幾十秒會換一次
-6. 把 App 上的六位數字，輸入到 GitHub 頁面「Verify the code from the app」底下的欄位
+6. 把 App 上的六位數字，輸入到 GitHub 頁面「Verify the code from the app」底下的欄位，再按 **Continue**
 
 ![github-2fa-qrcode.png](github-2fa-qrcode.png "掃描 QR code")
-<!-- 截圖：GitHub 顯示 QR code 與「Verify the code from the app」輸入欄位的頁面（QR code 請打馬賽克） -->
 
 ![authenticator-app-code.png](authenticator-app-code.png "驗證器 App 顯示的六位數驗證碼")
 <!-- 截圖：驗證器 App 掃描完成後，顯示 GitHub 六位數驗證碼的畫面（數字可打馬賽克） -->
