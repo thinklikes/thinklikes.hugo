@@ -11,7 +11,8 @@ import os
 from PIL import Image, ImageDraw, ImageFont
 
 W, H = 1200, 630
-FONT = "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc"
+# 思源黑體 Bold（Noto Sans TC），SIL Open Font License 1.1
+FONT = os.path.join(os.path.dirname(__file__), "fonts", "NotoSansTC-Bold.otf")
 AVATAR = os.path.join(os.path.dirname(__file__), "cover-avatar.png")
 SERIES = "AI 省時小工具"
 SITE = "中年碼農的職場奇妙冒險"
@@ -94,8 +95,9 @@ def main():
     cx, cy = 960, 290
     d.ellipse([cx - 160, cy - 160, cx + 160, cy + 160], fill=(242, 244, 246) if a.gray_circle else tint(ic, 0.1))
     box = (cx - 120, cy - 120, cx + 120, cy + 120)
-    layer = Image.new("RGB", (W, H), (0, 0, 0))
+    layer = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     ICONS[a.icon](ImageDraw.Draw(layer), cx, cy, ic)
+    img.paste(layer, (0, 0), layer)
     mask = Image.new("L", (box[2] - box[0], box[3] - box[1]), 0)
     px, mp = layer.crop(box).load(), mask.load()
     bw, bh = box[2] - box[0], box[3] - box[1]
@@ -107,7 +109,7 @@ def main():
         col = tuple(round(top[i] + (ic[i] - top[i]) * t) for i in range(3))
         for xx in range(bw):
             gp[xx, yy] = col
-            mp[xx, yy] = 255 if px[xx, yy] == ic else 0
+            mp[xx, yy] = 255 if px[xx, yy] == ic + (255,) else 0
     img.paste(grad, box[:2], mask)
 
     # 底部：分隔線＋頭像＋站名
