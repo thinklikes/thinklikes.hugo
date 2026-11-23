@@ -55,7 +55,10 @@ def main():
     p.add_argument("--title", action="append", required=True, help="標題，一行一個，最多兩行")
     p.add_argument("--color", required=True, help="主色 hex，例如 1f883d")
     p.add_argument("--icon", choices=ICONS, required=True)
-    p.add_argument("--icon-color", help="圖示顏色 hex，預設同主色；圖示會帶由上往下的白色漸層")
+    p.add_argument("--icon-color", help="圖示顏色 hex，預設同主色")
+    p.add_argument("--gradient", action="store_true", help="圖示帶由上往下的白色漸層")
+    p.add_argument("--gray-circle", action="store_true", help="圖示背後的圓用淺灰，不用主色")
+    p.add_argument("--no-bar", action="store_true", help="不畫左側色條")
     p.add_argument("--out", required=True)
     a = p.parse_args()
     c = hex2rgb(a.color)
@@ -65,7 +68,8 @@ def main():
     f = lambda s: ImageFont.truetype(FONT, s)
 
     # 左側主色條
-    d.rectangle([0, 0, 16, H], fill=c)
+    if not a.no_bar:
+        d.rectangle([0, 0, 16, H], fill=c)
 
     # 系列標籤
     label = f"{SERIES}（{a.num}）"
@@ -87,7 +91,7 @@ def main():
     # 右側圖示：先畫純色，再把純色部分換成「上淺下深」的白色漸層
     ic = hex2rgb(a.icon_color) if a.icon_color else c
     cx, cy = 960, 290
-    d.ellipse([cx - 160, cy - 160, cx + 160, cy + 160], fill=tint(ic, 0.1))
+    d.ellipse([cx - 160, cy - 160, cx + 160, cy + 160], fill=(242, 244, 246) if a.gray_circle else tint(ic, 0.1))
     box = (cx - 120, cy - 120, cx + 120, cy + 120)
     layer = Image.new("RGB", (W, H), (0, 0, 0))
     ICONS[a.icon](ImageDraw.Draw(layer), cx, cy, ic)
@@ -96,7 +100,7 @@ def main():
     bw, bh = box[2] - box[0], box[3] - box[1]
     grad = Image.new("RGB", (bw, bh))
     gp = grad.load()
-    top = tint(ic, 0.45)
+    top = tint(ic, 0.45) if a.gradient else ic
     for yy in range(bh):
         t = yy / (bh - 1)
         col = tuple(round(top[i] + (ic[i] - top[i]) * t) for i in range(3))

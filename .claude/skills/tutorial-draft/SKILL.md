@@ -105,10 +105,10 @@ topics = ['<系列名>']
 
 ```bash
 python3 scripts/make_cover.py --num 2 --title "註冊 GitHub" --title "開啟兩步驟驗證" \
-  --color 1f883d --icon lock --icon-color ff8a3d --out content/posts/ai-tools/github-signup-2fa/feature.png
+  --color 1f883d --icon lock --out content/posts/ai-tools/github-signup-2fa/feature.png
 ```
 
-主色取該篇主角工具的品牌色；圖示可用 `--icon-color` 另外指定顏色（會帶白色漸層）；新圖示加在腳本的 `ICONS`。
+主色取該篇主角工具的品牌色；圖示可用 `--icon-color` 另外指定顏色，`--gradient`、`--gray-circle`、`--no-bar` 可調整樣式；新圖示加在腳本的 `ICONS`。
 
 ---
 
