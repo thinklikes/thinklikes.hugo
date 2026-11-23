@@ -1,6 +1,6 @@
 +++
-date = '2026-11-18'
-draft = true
+date = '2026-11-23'
+draft = false
 title = 'AI 省時小工具（2） - 註冊 GitHub 帳號，順便把兩步驟驗證開起來'
 description = '從註冊 GitHub 帳號開始，一步一步開啟兩步驟驗證（2FA），並把救援碼存好，避免手機遺失時帳號回不來。'
 tags = ['GitHub', '兩步驟驗證', '帳號安全']
