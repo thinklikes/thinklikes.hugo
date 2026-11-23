@@ -2,14 +2,14 @@
 date = '2026-11-23'
 draft = false
 title = 'AI 省時小工具（3） - 用 ChatGPT 串接 GitHub，做一個自己的個人網站'
-description = '讓 ChatGPT 連上 GitHub，請它做好個人網站並直接寫進 Repository，再用 GitHub Pages 免費發布，拿到一個可以分享的網址。'
-tags = ['ChatGPT', 'GitHub', 'GitHub Pages', '個人網站']
+description = '讓 ChatGPT 連上 GitHub，請它做好個人網站並直接寫進 Repository，放進自己的 github.io 就會自動上線，拿到一個可以分享的網址。'
+tags = ['ChatGPT', 'GitHub', '個人網站']
 topics = ['AI 省時小工具']
 +++
 
 ## 前言
 
-這篇要用 ChatGPT 做一個自己的個人網站，從版面、文字到程式都交給它寫，寫好之後由 ChatGPT 直接存進 GitHub，再用 GitHub Pages 免費發布到網路上。整個過程不需要會寫程式，也不需要買主機或網域，順利的話大約半小時可以完成。
+這篇要用 ChatGPT 做一個自己的個人網站，從版面、文字到程式都交給它寫，寫好之後由 ChatGPT 直接存進 GitHub，網站就會自動出現在網路上。整個過程不需要會寫程式，也不需要買主機或網域，順利的話大約半小時可以完成。
 
 整個流程是這樣：
 
@@ -31,13 +31,12 @@ topics = ['AI 省時小工具']
 - 一個 ChatGPT 帳號
 - 一台電腦，建議使用電腦操作較為順暢
 
-這篇會用到三個工具：
+這篇會用到兩個工具：
 
 | 工具 | 用途 |
 | --- | --- |
 | ChatGPT | 設計和製作網站 |
-| GitHub | 存放網站的檔案 |
-| GitHub Pages | 免費把網站發布到網路上 |
+| GitHub | 存放網站的檔案，並免費把網站放上網路 |
 
 先講幾個之後會看到的名詞，看過有印象就好：
 
@@ -51,14 +50,14 @@ topics = ['AI 省時小工具']
 
 1. 登入 GitHub，點右上角的 **+**，選 **New repository**
 2. **Repository name** 填 `你的帳號.github.io`，例如帳號是 `john123`，就填 `john123.github.io`
-3. 可見度選 **Public**。免費帳號的 GitHub Pages 只能用在公開的 Repository
+3. 可見度選 **Public**。免費帳號要選公開，網站才會自動上線
 4. 把 **Add README** 打開
 5. 按 **Create repository**
 
 ![github-new-repository.png](github-new-repository.png "建立新的 Repository")
 <!-- 截圖：GitHub「Create a new repository」頁面，標出 Repository name、Public、Add README 與 Create repository 按鈕 -->
 
-Repository 用 `你的帳號.github.io` 這個名字，GitHub 會把它當成你的個人網站，只要裡面有網頁檔案就會自動發布，網址就是 `https://你的帳號.github.io/`，不需要另外設定。一個帳號只能有一個這種 Repository。
+Repository 用 `你的帳號.github.io` 這個名字，GitHub 會把它當成你的個人網站：之後放進去的網頁檔案會自動上線，網址就是 `https://你的帳號.github.io/`，不需要另外設定。一個帳號只能有一個這種 Repository。
 
 {{< alert icon="triangle-exclamation" >}}
 公開的 Repository 任何人都看得到裡面的檔案，不要把電話、住址、身分證字號這類個資寫進網站。
@@ -169,31 +168,28 @@ ChatGPT 完成後，會列出新增或修改了哪些檔案。回到 GitHub 打�
 
 ## 步驟五：打開網站網址
 
-ChatGPT 把檔案寫進 GitHub 之後，GitHub Pages 會自動發布網站，通常幾分鐘內會完成，最久可能要等到 10 分鐘。
+ChatGPT 把檔案寫進 GitHub 之後，網站會自動上線，通常幾分鐘內會完成，最久可能要等到 10 分鐘。
 
-1. 打開這個 Repository，點上方的 **Settings**
-2. 在左側選單的「Code, planning, and automation」區塊，點 **Pages**
-3. 頁面上方會顯示網站網址，點 **Visit site** 就能打開
-
-![github-pages-url.png](github-pages-url.png "GitHub Pages 顯示的網站網址")
-<!-- 截圖：Settings > Pages 上方顯示「Your site is live at …」與 Visit site 按鈕（帳號名稱可視需要打馬賽克） -->
-
-如果等了 10 分鐘還是沒有網址，或打開網址看到 404，請在同一頁的「Build and deployment」底下確認：
-
-- **Source** 是 **Deploy from a branch**
-- **Branch** 是 `main`，資料夾是 `/ (root)`，設定好後按 **Save**
-
-也請確認 Repository 的名字和帳號完全一樣，而且 `index.html` 放在最上層。
-
----
-
-## 完成之後
-
-網站網址的格式是：
+在瀏覽器打開以下網址，就能看到自己的網站：
 
 ```text
 https://你的帳號.github.io/
 ```
+
+![website-live.png](website-live.png "上線後的個人網站")
+<!-- 截圖：瀏覽器打開 https://帳號.github.io/ 看到的個人網站，網址列要看得到（Email 等個資請打馬賽克） -->
+
+如果等了 10 分鐘還是打不開，或看到 404 頁面，請確認：
+
+- Repository 的名字和帳號完全一樣，例如帳號是 `john123`，名字就是 `john123.github.io`
+- Repository 是 **Public**
+- `index.html` 放在 Repository 的最上層
+
+都沒問題的話，可以把看到的畫面截圖給 ChatGPT，請它協助檢查。
+
+---
+
+## 完成之後
 
 這個網址任何人都打得開，可以放在名片、社群自介或履歷上。
 
@@ -211,7 +207,7 @@ https://你的帳號.github.io/
 完成後請建立 Commit 並更新 main 分支。
 ```
 
-ChatGPT 更新 `main` 分支之後，GitHub Pages 會自動重新發布，過幾分鐘重新整理網頁就能看到新的內容。
+ChatGPT 更新之後，網站會自動跟著更新，過幾分鐘重新整理網頁就能看到新的內容。
 
 【作者補：自己做完的網站長什麼樣子、用了哪些調整】
 
@@ -219,13 +215,13 @@ ChatGPT 更新 `main` 分支之後，GitHub Pages 會自動重新發布，過幾
 
 ## 常見問題
 
-**GitHub Pages 要付費嗎？**
+**放網站要付費嗎？**
 
-不用。免費帳號可以在公開的 Repository 使用 GitHub Pages；想用私人 Repository 發布，才需要付費方案。
+不用。免費帳號只要 Repository 是公開的，網站就能免費上線；想把 Repository 設成私人又要上線，才需要付費方案。
 
 **可以做購物網站或會員系統嗎？**
 
-不行。GitHub Pages 只能放靜態網站，也就是 HTML、CSS、JavaScript 這類檔案，不能執行 PHP 等後端程式，也沒有資料庫。需要會員登入、儲存資料或金流時，要另外搭配後端服務。
+不行。這種方式只能放靜態網站，也就是 HTML、CSS、JavaScript 這類檔案，不能執行 PHP 等後端程式，也沒有資料庫。需要會員登入、儲存資料或金流時，要另外搭配後端服務。
 
 **一定要學 Git 指令嗎？**
 
