@@ -99,9 +99,6 @@ QR code 和 setup key 等同於驗證碼的鑰匙，不要截圖分享給別人�
 1. 在「Save your recovery codes」底下，點 **Download**，把檔案存下來
 2. 確認存好之後，點 **I have saved my recovery codes**，兩步驟驗證就開啟完成了
 
-![github-recovery-codes.png](github-recovery-codes.png "下載救援碼")
-<!-- 截圖：Save your recovery codes 頁面，標出 Download 和 I have saved my recovery codes 按鈕（救援碼內容請打馬賽克） -->
-
 存放救援碼的建議：
 
 - 存在密碼管理工具裡，或印出來放在家裡安全的地方
@@ -112,7 +109,9 @@ QR code 和 setup key 等同於驗證碼的鑰匙，不要截圖分享給別人�
 如果手機遺失，又找不到救援碼，基於安全考量，GitHub 客服可能無法幫你恢復帳號的存取權限。
 {{< /alert >}}
 
-如果當時沒存到，之後也可以補：到 **Settings** → **Password and authentication**，在「Recovery codes」旁邊點 **View**，重新下載。
+如果當時沒存到，之後也可以補：到 **Settings** → **Password and authentication**，在「Recovery codes」旁邊點 **View**，就會看到下面這個頁面。按 **Download** 下載，也可以按 **Print** 印出來，或按 **Copy** 複製到密碼管理工具。
+
+![github-recovery-codes.png](github-recovery-codes.png "救援碼頁面（救援碼已打馬賽克）")
 
 ---
 
