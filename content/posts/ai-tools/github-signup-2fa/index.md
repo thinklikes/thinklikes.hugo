@@ -9,7 +9,7 @@ topics = ['AI 省時小工具']
 
 ## 前言
 
-很多 AI 工具、開源專案和教學，都會請你先準備一個 GitHub 帳號。這篇會從註冊帳號開始，接著把兩步驟驗證（Two-factor authentication，簡稱 2FA）開起來，最後把救援碼存好。整個流程大約十五分鐘。
+很多 AI 工具、開源專案和教學，都會請你先準備一個 GitHub 帳號。這篇會從註冊帳號開始，接著把兩步驟驗證（Two-factor authentication，簡稱 2FA）開起來，最後把救援碼存好。
 
 ---
 
@@ -19,7 +19,7 @@ topics = ['AI 省時小工具']
 
 - 一個常用的 Email 信箱，註冊時要收驗證碼
 - 一支手機，用來安裝驗證器 App
-- 建議使用電腦操作較為順暢
+- 一台電腦，用來開 GitHub 網站。開啟兩步驟驗證時，要用手機掃描電腦螢幕上的 QR code，所以這一步需要電腦和手機一起用
 
 GitHub 的介面是英文，下面會把每個要按的按鈕原文標出來，照著找就可以。
 
@@ -33,7 +33,7 @@ GitHub 的介面是英文，下面會把每個要按的按鈕原文標出來，�
    - **Password**：密碼至少 15 個字元，或至少 8 個字元並包含數字和小寫英文字母
    - **Username**：使用者名稱，只能用英文字母、數字和單一連字號（`-`），開頭和結尾不能是連字號
    - **Your Country/Region**：選擇所在的國家或地區，例如 Taiwan
-3. **Email preferences** 是是否收 GitHub 的產品消息，可以不勾
+3. **Email preferences** 是詢問要不要收 GitHub 的產品消息，可以不勾
 4. 按 **Create account**
 5. 完成畫面上的真人驗證
 6. 到信箱收 GitHub 寄來的驗證碼，貼回註冊頁面，完成 Email 驗證
@@ -42,7 +42,7 @@ GitHub 的介面是英文，下面會把每個要按的按鈕原文標出來，�
 
 使用者名稱之後會出現在個人頁面的網址裡（例如 `github.com/你的名字`），建議取一個自己看得順眼、以後不會想改的名字。
 
-如果習慣用 Google 或 Apple 帳號登入，也可以直接按頁面上方的 **Continue with Google** 或 **Continue with Apple** 註冊。
+如果習慣用 Google 或 Apple 帳號登入，也可以直接按頁面上方的 **Continue with Google** 或 **Continue with Apple** 註冊。這樣註冊的帳號不需要另外設定 GitHub 密碼，之後用 Google 或 Apple 帳號登入即可，下面開啟兩步驟驗證的步驟都一樣。
 
 如果註冊時出現「This email can't be used」或「We couldn't create your account」，可以換一個瀏覽器、清除 Cookie，或過一段時間再試一次。
 
@@ -50,7 +50,7 @@ GitHub 的介面是英文，下面會把每個要按的按鈕原文標出來，�
 
 ## 步驟二：安裝驗證器 App
 
-兩步驟驗證的意思是：登入時除了密碼，還要再輸入一組手機上的六位數驗證碼。就算密碼外流，別人沒有你的手機，也登入不了。
+兩步驟驗證的意思是：登入時除了密碼（或 Google、Apple 帳號），還要再輸入一組手機上的六位數驗證碼。就算密碼外流，別人沒有你的手機，也登入不了。
 
 GitHub 也支援用簡訊收驗證碼，但官方比較建議使用驗證器 App，而且簡訊不是每個國家都支援。這篇以驗證器 App 為例。
 
@@ -85,7 +85,7 @@ GitHub 也支援用簡訊收驗證碼，但官方比較建議使用驗證器 App
 
 ![authenticator-app-code.png](authenticator-app-code.png "驗證器 App 顯示的六位數驗證碼")
 
-如果手機掃不到 QR code，可以點 QR code 下方的 **setup key**，把出現的一串英數字手動輸入到驗證器 App 裡。
+如果手機掃不到 QR code，或是手邊只有一支手機、沒辦法掃自己的螢幕，可以點 QR code 下方的 **setup key**，把出現的一串英數字手動輸入到驗證器 App 裡。
 
 {{< alert icon="triangle-exclamation" >}}
 QR code 和 setup key 等同於驗證碼的鑰匙，不要截圖分享給別人。
@@ -97,8 +97,11 @@ QR code 和 setup key 等同於驗證碼的鑰匙，不要截圖分享給別人�
 
 輸入驗證碼之後，GitHub 會給你一組救援碼（Recovery codes），總共 16 組。手機遺失、App 被刪掉的時候，可以用救援碼登入，每一組只能用一次。
 
-1. 在「Save your recovery codes」底下，點 **Download**，把檔案存下來
+1. 在「Save your recovery codes」底下，點 **Download**，把檔案存下來。檔名是 `github-recovery-codes.txt`，通常會在電腦的「下載」資料夾裡
 2. 確認存好之後，點 **I have saved my recovery codes**，兩步驟驗證就開啟完成了
+
+![github-2fa-save-recovery-codes.png](github-2fa-save-recovery-codes.png "開啟兩步驟驗證時的救援碼頁面")
+<!-- 截圖：開啟 2FA 流程中的 Save your recovery codes 頁面，標出 Download 和 I have saved my recovery codes（救援碼請打馬賽克） -->
 
 存放救援碼的建議：
 
@@ -118,13 +121,19 @@ QR code 和 setup key 等同於驗證碼的鑰匙，不要截圖分享給別人�
 
 ## 開啟之後
 
-之後在新的電腦登入、登出後再登入，或做比較敏感的操作時，GitHub 會在輸入密碼之後，再請你輸入驗證器 App 上的六位數驗證碼。打開 App 就能看到最新的數字，輸入後按 **Verify**。
+之後在新的電腦登入、登出後再登入，或做比較敏感的操作時，GitHub 會在輸入密碼（或用 Google、Apple 帳號登入）之後，再請你輸入驗證器 App 上的六位數驗證碼。打開 App 就能看到最新的數字，輸入後按 **Verify**。
 
 ![github-2fa-login.png](github-2fa-login.png "登入時輸入兩步驟驗證碼")
 
 開啟後的 28 天內，GitHub 會確認你能不能正常使用兩步驟驗證。這段期間只要正常登入、輸入過一次驗證碼就可以了。
 
-到這裡，GitHub 帳號已經註冊好，兩步驟驗證也開啟了，救援碼也存在安全的地方。有了這個帳號，接下來就可以開始動手做各種專案。下一篇，我會用 ChatGPT 串接 GitHub，一步一步做出一個自己的網站。
+如果手機不在身邊，或驗證器 App 被刪掉了，可以在這個畫面點 **More options**，選 **2FA recovery code**，輸入其中一組救援碼，再按 **Verify**。用過的那一組就不能再用了。
+
+{{< alert icon="triangle-exclamation" >}}
+GitHub 不會打電話或傳訊息跟你要驗證碼或救援碼。有人跟你要，就是詐騙。
+{{< /alert >}}
+
+到這裡，GitHub 帳號已經註冊好，兩步驟驗證也開啟了，救援碼也存在安全的地方。有了這個帳號，接下來就可以開始動手做各種專案，例如用 ChatGPT 串接 GitHub，做出一個自己的網站。
 
 ---
 
