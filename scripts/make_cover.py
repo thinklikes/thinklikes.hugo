@@ -59,13 +59,14 @@ def main():
     p.add_argument("--gradient", action="store_true", help="圖示帶由上往下的白色漸層")
     p.add_argument("--gray-circle", action="store_true", help="圖示背後的圓用淺灰，不用主色")
     p.add_argument("--no-bar", action="store_true", help="不畫左側色條")
+    p.add_argument("--font", default=FONT, help="標題與標籤的字型檔路徑")
     p.add_argument("--out", required=True)
     a = p.parse_args()
     c = hex2rgb(a.color)
 
     img = Image.new("RGB", (W, H), "white")
     d = ImageDraw.Draw(img)
-    f = lambda s: ImageFont.truetype(FONT, s)
+    f = lambda s: ImageFont.truetype(a.font, s)
 
     # 左側主色條
     if not a.no_bar:
