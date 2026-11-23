@@ -61,8 +61,9 @@ GitHub 也支援用簡訊收驗證碼，但官方比較建議使用驗證器 App
 
 兩個都是免費的，選一個即可。建議開啟 App 裡的雲端備份功能，換手機時比較容易把驗證碼搬過去。
 
-![authenticator-app-install.png](authenticator-app-install.png "安裝驗證器 App")
-<!-- 截圖：手機商店裡驗證器 App 的下載頁面 -->
+![authenticator-app-install.png](authenticator-app-install.png "App Store 裡的 Google Authenticator")
+
+認明開發者是 Google 或 Microsoft 的官方 App。截圖裡的按鈕是「打開」，因為我已經安裝過了，第一次下載時會顯示「取得」。
 
 ---
 
