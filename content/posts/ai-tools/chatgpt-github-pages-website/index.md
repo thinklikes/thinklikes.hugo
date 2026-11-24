@@ -27,7 +27,7 @@ topics = ['AI 省時小工具']
 
 請先準備好：
 
-- 一個 GitHub 帳號。還沒有的話，可以先照[這篇]({{< ref "/posts/ai-tools/github-signup-2fa" >}})註冊，並把兩步驟驗證開起來
+- 一個 GitHub 帳號。還沒有的話，可以先照這篇（[AI 省時小工具（2） - 註冊 GitHub 帳號，順便把兩步驟驗證開起來]({{< ref "/posts/ai-tools/github-signup-2fa" >}})）註冊，並把兩步驟驗證開起來
 - 一個 ChatGPT 帳號
 - 一台電腦，建議使用電腦操作較為順暢
 
