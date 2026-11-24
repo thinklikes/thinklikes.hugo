@@ -71,15 +71,14 @@ Repository 用 `你的帳號.github.io` 這個名字，GitHub 會把它當成你
 1. 打開 ChatGPT，點帳號名稱，進入 **設定**
 2. 在左側選單的「整合」區塊，點 **外掛程式**，再按右上角的 **瀏覽目錄**
 3. 在外掛程式清單裡找到 **GitHub**，按右邊的 **+**
-4. 畫面會跳到 GitHub，依畫面指示安裝並授權 ChatGPT
+4. 畫面會跳到 GitHub，出現「ChatGPT Codex Connector by OpenAI」的授權頁面，確認是 OpenAI 的應用程式後，按 **Authorize**
 5. 選擇 ChatGPT 可以使用哪些 Repository。建議選 **Only select repositories**，只勾剛剛建立的那一個
 
 ![chatgpt-settings-plugins.png](chatgpt-settings-plugins.png "設定裡的外掛程式頁面")
 
 ![chatgpt-plugins-github.png](chatgpt-plugins-github.png "在外掛程式目錄找到 GitHub，按 +")
 
-![github-authorize-chatgpt.png](github-authorize-chatgpt.png "在 GitHub 授權 ChatGPT 並選擇 Repository")
-<!-- 截圖：GitHub 授權 ChatGPT 的頁面，標出 Only select repositories 與勾選的 Repository（帳號名稱與大頭貼請打馬賽克） -->
+![github-authorize-chatgpt.png](github-authorize-chatgpt.png "在 GitHub 授權 ChatGPT")
 
 連接成功之後，ChatGPT 就能讀取並修改你授權的 Repository。之後想調整範圍或取消連接，回到 **設定** > **外掛程式**，點 **GitHub** 修改即可。
 
