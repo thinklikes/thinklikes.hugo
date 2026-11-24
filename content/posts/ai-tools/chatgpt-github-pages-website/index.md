@@ -50,12 +50,13 @@ topics = ['AI 省時小工具']
 
 1. 登入 GitHub，點右上角的 **+**，選 **New repository**
 2. **Repository name** 填 `你的帳號.github.io`，例如帳號是 `john123`，就填 `john123.github.io`
-3. 可見度選 **Public**。免費帳號要選公開，網站才會自動上線
-4. 把 **Add README** 打開
+3. **Choose visibility** 選 **Public**。免費帳號要選公開，網站才會自動上線
+4. 把 **Add README** 右邊的開關從 Off 打開
 5. 按 **Create repository**
 
 ![github-new-repository.png](github-new-repository.png "建立新的 Repository")
-<!-- 截圖：GitHub「Create a new repository」頁面，標出 Repository name、Public、Add README 與 Create repository 按鈕 -->
+
+![github-repository-visibility.png](github-repository-visibility.png "可見度選單裡選 Public")
 
 Repository 用 `你的帳號.github.io` 這個名字，GitHub 會把它當成你的個人網站：之後放進去的網頁檔案會自動上線，網址就是 `https://你的帳號.github.io/`，不需要另外設定。一個帳號只能有一個這種 Repository。
 
