@@ -48,6 +48,8 @@ topics = ['AI 省時小工具']
 
 ## 步驟一：在 GitHub 建立網站用的 Repository
 
+ChatGPT 可以修改 Repository 裡的檔案，但沒辦法幫你建立新的 Repository，所以這一步要自己在 GitHub 網站上完成。
+
 1. 登入 GitHub，點右上角的 **+**，選 **New repository**
 2. **Repository name** 填 `你的帳號.github.io`，例如帳號是 `john123`，就填 `john123.github.io`
 3. **Choose visibility** 選 **Public**。免費帳號要選公開，網站才會自動上線
@@ -169,7 +171,7 @@ ChatGPT 完成後，會列出新增或修改了哪些檔案。回到 GitHub 打�
 | ChatGPT 說沒有寫入權限 | 請說明目前缺少哪些權限，以及我要在 GitHub 哪裡調整授權。 |
 | ChatGPT 只給了檔案內容，沒有寫進 GitHub | 請直接把這些檔案寫入【你的帳號/你的帳號.github.io】的 main 分支，並建立一筆 Commit。 |
 
-找不到 Repository 時，也可以回到步驟二，確認授權時有勾選這個 Repository。
+找不到 Repository 時，先確認步驟一已經自己建立好 `你的帳號.github.io`，再回到步驟二，確認授權時有勾選這個 Repository。如果 ChatGPT 回覆「無法建立 Repository」，代表這個 Repository 還不存在，回到步驟一建立即可，ChatGPT 本身沒辦法建立。
 
 ---
 
