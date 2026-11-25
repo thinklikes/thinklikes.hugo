@@ -127,8 +127,7 @@ ChatGPT 會先列出網站的架構，再產生網站檔案。不需要一次就
 | 作品圖片 | 我上傳了幾張作品圖，請放進作品展示區，並幫每張加上簡短說明。 |
 | 自我介紹 | 請把自我介紹改寫得更口語一點，控制在三句話以內。 |
 
-![chatgpt-website-preview.png](chatgpt-website-preview.png "ChatGPT 做好的網站預覽")
-<!-- 截圖：ChatGPT 對話中產生的網站預覽或檔案清單（畫面上的 Email 等個資請打馬賽克） -->
+![chatgpt-website-preview.png](chatgpt-website-preview.png "用範例資料做出來的個人網站")
 
 ---
 
