@@ -68,6 +68,7 @@ python3 scripts/make_cover.py --num <系列編號> \
 - 字型用 repo 內的思源黑體 Bold（`scripts/fonts/NotoSansTC-Bold.otf`）。
 - 標題拆成兩行，每行要短，縮成小圖也看得清楚。
 - 新題材需要新圖示時，加在腳本的 `ICONS`。
+- 左下角頭像固定用網站目前的 icon（一個人使用電腦，`assets/img/avatar.png`，腳本讀的是同一張的副本 `scripts/cover-avatar.png`），與 favicon、首頁作者頭像一致。不要用戴耳機的卡通頭像；之後若換站台 icon，兩個檔案要一起換。
 
 ## 6. 定稿與合併
 
@@ -119,7 +120,7 @@ https://coder-adventure.pages.dev/posts/ai-tools/github-signup-2fa/
 - [ ] 按鈕名稱、數字都查過官方文件
 - [ ] 截圖的個資都已打馬賽克，檔名不含 feature／cover／thumbnail
 - [ ] 抗性思辨審查與通順度檢查都做過
-- [ ] `feature.png` 用腳本產生，灰色標籤＋品牌色圖示
+- [ ] `feature.png` 用腳本產生，灰色標籤＋品牌色圖示，左下角是網站目前的電腦人像 icon
 - [ ] `draft = false`、日期正確、`CLAUDE.md` 進度已更新
 - [ ] PR 由作者合併
 - [ ] 粉絲團貼文語氣中立，連結作者已確認
