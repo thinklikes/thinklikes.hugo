@@ -159,8 +159,7 @@ ChatGPT 完成後，會列出新增或修改了哪些檔案。回到 GitHub 打�
 
 ![chatgpt-commit-result.png](chatgpt-commit-result.png "ChatGPT 回報已推送到 GitHub，並列出修改的檔案與 Commit 資訊")
 
-![github-repository-files.png](github-repository-files.png "GitHub Repository 裡的網站檔案")
-<!-- 截圖：GitHub Repository 首頁，標出 index.html 與最新一筆 Commit 訊息 -->
+![github-repository-files.png](github-repository-files.png "GitHub Repository 裡的網站檔案與最新一筆 Commit")
 
 如果出現以下狀況，可以這樣處理：
 
