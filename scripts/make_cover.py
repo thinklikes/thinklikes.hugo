@@ -47,7 +47,20 @@ def icon_sticker(d, cx, cy, c):
     d.arc([cx - 55, cy - 20, cx + 45, cy + 50], 20, 160, fill="white", width=12)
 
 
-ICONS = {"lock": icon_lock, "sticker": icon_sticker}
+def icon_web(d, cx, cy, c):
+    """瀏覽器視窗，裡面是 </>。"""
+    d.rounded_rectangle([cx - 110, cy - 85, cx + 110, cy + 85], 22, fill=c)
+    d.rounded_rectangle([cx - 92, cy - 42, cx + 92, cy + 67], 10, fill="white")
+    for i in range(3):
+        x = cx - 88 + i * 26
+        d.ellipse([x, cy - 72, x + 15, cy - 57], fill="white")
+    w = 14
+    d.line([(cx - 30, cy - 12), (cx - 60, cy + 13), (cx - 30, cy + 38)], fill=c, width=w, joint="curve")
+    d.line([(cx + 30, cy - 12), (cx + 60, cy + 13), (cx + 30, cy + 38)], fill=c, width=w, joint="curve")
+    d.line([(cx + 12, cy - 22), (cx - 12, cy + 48)], fill=c, width=w)
+
+
+ICONS = {"lock": icon_lock, "sticker": icon_sticker, "web": icon_web}
 
 
 def main():
