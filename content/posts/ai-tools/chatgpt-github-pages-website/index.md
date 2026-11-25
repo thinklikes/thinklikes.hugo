@@ -157,8 +157,7 @@ Branch：main
 
 ChatGPT 完成後，會列出新增或修改了哪些檔案。回到 GitHub 打開這個 Repository，就能看到 `index.html` 等檔案，以及剛剛那筆 Commit。
 
-![chatgpt-commit-result.png](chatgpt-commit-result.png "ChatGPT 回報寫入 GitHub 的結果")
-<!-- 截圖：ChatGPT 回報修改的檔案清單與 Commit 資訊 -->
+![chatgpt-commit-result.png](chatgpt-commit-result.png "ChatGPT 回報已推送到 GitHub，並列出修改的檔案與 Commit 資訊")
 
 ![github-repository-files.png](github-repository-files.png "GitHub Repository 裡的網站檔案")
 <!-- 截圖：GitHub Repository 首頁，標出 index.html 與最新一筆 Commit 訊息 -->
