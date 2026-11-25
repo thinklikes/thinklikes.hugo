@@ -191,7 +191,7 @@ https://你的帳號.github.io/
 - Repository 是 **Public**
 - `index.html` 放在 Repository 的最上層
 
-都沒問題的話，可以把看到的畫面截圖給 ChatGPT，請它協助檢查。
+若還是找不到問題的話，可以直接讓 ChatGPT 檢查你的 Repository。
 
 ---
 
