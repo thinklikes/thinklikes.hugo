@@ -183,8 +183,7 @@ ChatGPT 把檔案寫進 GitHub 之後，網站會自動上線，通常幾分鐘�
 https://你的帳號.github.io/
 ```
 
-![website-live.png](website-live.png "上線後的個人網站")
-<!-- 截圖：瀏覽器打開 https://帳號.github.io/ 看到的個人網站，網址列要看得到（Email 等個資請打馬賽克） -->
+![website-live.png](website-live.png "上線後的個人網站，網址就是 帳號.github.io")
 
 如果等了 10 分鐘還是打不開，或看到 404 頁面，請確認：
 
