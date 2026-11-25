@@ -127,10 +127,9 @@ def main():
 
     # 底部：分隔線＋頭像＋站名
     d.line([80, 500, W - 80, 500], fill=LINE, width=2)
-    av = Image.open(AVATAR).convert("RGBA").resize((72, 72), Image.LANCZOS)
-    mask = Image.new("L", (72, 72), 0)
-    ImageDraw.Draw(mask).ellipse([0, 0, 71, 71], fill=255)
-    img.paste(av, (80, 530), mask)
+    av = Image.open(AVATAR).convert("RGBA")
+    av = av.crop(av.getbbox()).resize((72, 72), Image.LANCZOS)  # 頭像為透明底，直接疊上，不裁圓
+    img.paste(av, (80, 530), av)
     d.text((172, 566), SITE, font=f(28), fill=MUTED, anchor="lm")
 
     img.save(a.out, optimize=True)
