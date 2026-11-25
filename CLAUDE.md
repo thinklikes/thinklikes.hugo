@@ -36,4 +36,5 @@
 - PR #7（第 2 篇草稿、系列命名統一、規劃文件與 CLAUDE.md）已於 2026-11-09 合併；之後分支 `claude/new-session-syho52` 新增的 commit（刪除素材草稿、第 3 篇構想、本檔進度）由 PR #9 合併進 master，待作者確認合併。
 - **下一篇構想（暫列第 3 篇，未動筆）**：無意中發現 SBE，整理出知識庫指引（A 篇）；QA 工作流（TARS）另開 B 篇。大綱草案與待補素材見規劃文件「第 3 篇（暫，構想中）」。第 2 篇小結的預告句與此篇的落差，作者決定先不處理。
 - **新系列「AI 省時小工具」**（給不懂技術的讀者，`content/posts/ai-tools/`）：第 1 篇 LINE 貼圖上架教學已發布（2026-11-16，`draft = false`，PR #10 已合併）。截圖待補，Creators Market 介面名稱尚未核對。兩篇封面（`feature.png`）都由 `scripts/make_cover.py` 產生（白底、灰色系列標籤、思源黑體 Bold、圖示用工具品牌色）。第 2 篇 GitHub 註冊與開啟 2FA 教學（`content/posts/ai-tools/github-signup-2fa/`）已發布（2026-11-23，`draft = false`，PR #11 已合併）。粉絲團推廣貼文（中立版）草稿在 `/mnt/project-files/drafts/fb-posts/`，貼文編號 002。第 3 篇「用 ChatGPT 串接 GitHub 做個人網站」（`content/posts/ai-tools/chatgpt-github-pages-website/`）`draft = false` 供 preview 站檢視，流程依作者提供的教學（預設 ChatGPT 可直接推送 commit），Repository 用 `帳號.github.io` 自動上線，文中不提 GitHub Pages 名詞，截圖齊全（作者實測 ChatGPT 可直接推送到 main）；封面新增 `web` 圖示（GitHub 藍 0969da）。
+- **網站 icon 統一用「一個人使用電腦」那張**（`assets/img/avatar.png`）：favicon、apple-touch-icon、作者頭像、og:image、封面左下角頭像（`scripts/cover-avatar.png`）都用它，不用戴耳機的卡通頭像（PR #15）。
 - side project 下一個里程碑：手刻 RAG 開工（Ollama + Chroma 跑起來）。
