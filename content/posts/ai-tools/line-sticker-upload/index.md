@@ -9,15 +9,16 @@ topics = ['AI 省時小工具']
 
 ## 前言
 
-都說有 AI 能夠自己畫圖，不如就來自己做 line 貼圖吧！現在 ChatGPT 不僅能畫圖，切圖、去背、做封面也能一手包辦，我只負責複製貼上、按下載。下面是我整理出來的流程跟提示詞，替換成自己需要的元素，讓我們一步一步操作。
+都說有 AI 能夠自己畫圖，不如就來自己做 LINE 貼圖吧！現在 ChatGPT 不僅能畫圖，切圖、去背、做封面也能一手包辦，我只負責複製貼上、按下載。下面是我整理出來的流程跟提示詞，替換成自己需要的元素，讓我們一步一步操作。
 
-<!-- 截圖：作者的成品貼圖 -->
+![line-sticker-sample.png](line-sticker-sample.png "用這個流程做出來的貼圖")
+<!-- 截圖：作者上架成功的貼圖，例如 LINE 貼圖小舖的貼圖頁面，或在聊天室裡使用的畫面（聊天對象的名字、頭像請打馬賽克） -->
 
 ---
 
 ## 動手前
 
-我用的是免費版 ChatGPT。免費版有使用額度限制，額度用完時，可以分幾次使用提示詞來產生圖片。上架要用 LINE 帳號登入 [LINE Creators Market](https://creator.line.me/zh-hant/)。建議使用電腦操作較為順暢。
+我用的是免費版 ChatGPT。免費版的畫圖、上傳檔案都有使用額度限制，額度用完時，可以隔一段時間再繼續，分幾次完成。上架要用 LINE 帳號登入 [LINE Creators Market](https://creator.line.me/zh-hant/)。建議使用電腦操作較為順暢。
 
 LINE 對貼圖有明確的規格要求，我整理成一張表，後面的提示詞都已經照這張表寫好了：
 
@@ -59,7 +60,8 @@ LINE 對貼圖有明確的規格要求，我整理成一張表，後面的提示
 【我到了、出發、加油、沒問題、生日快樂、抱抱、對不起、讚、休息一下】
 ```
 
-<!-- 截圖：ChatGPT 產出的九宮格 -->
+![chatgpt-sticker-grid.png](chatgpt-sticker-grid.png "ChatGPT 畫出來的九宮格，貼圖之間留有空隙")
+<!-- 截圖：ChatGPT 對話裡產出的九宮格大圖（含上方的提示詞更好） -->
 
 以上架 32 張為例，可以畫 4 組共 36 張，再從中挑選 32 張。
 
@@ -95,7 +97,8 @@ LINE 對貼圖有明確的規格要求，我整理成一張表，後面的提示
 
 如果 ChatGPT 重新畫了一張圖，而不是處理檔案，請補上這句：「不要畫圖，用 Python 處理我上傳的檔案。」
 
-<!-- 截圖：ChatGPT 回覆的縮圖與 ZIP 下載連結 -->
+![chatgpt-sticker-split-preview.png](chatgpt-sticker-split-preview.png "ChatGPT 切好的縮圖與 ZIP 下載連結")
+<!-- 截圖：ChatGPT 回覆的 9 張縮圖，以及下方的 ZIP 下載連結（請把下載連結框起來） -->
 
 如果裁切結果不理想，可以用以下提示詞修正：
 
@@ -118,6 +121,9 @@ LINE 對貼圖有明確的規格要求，我整理成一張表，後面的提示
 再用【07.png】做 tab.png：等比例縮放後置中放到 96×74 的透明畫布，四周留 2px。
 不要變形，做好給我下載。
 ```
+
+![chatgpt-sticker-main-tab.png](chatgpt-sticker-main-tab.png "做好的 main.png 和 tab.png")
+<!-- 截圖：ChatGPT 回覆的 main.png 與 tab.png 預覽和下載連結 -->
 
 最後把挑好的貼圖（例如 `01.png` 到 `32.png`）和 `main.png`、`tab.png` 放在一起，壓成一個 ZIP，裡面不要再包一層資料夾。如果挑完之後編號中間有缺號，可以請 ChatGPT 重新編號：「請把這些貼圖依檔名順序重新編號成 01.png 開始，和 main.png、tab.png 一起打包成 ZIP，ZIP 裡不要有資料夾。」
 
@@ -142,20 +148,47 @@ LINE 規定英文版的名稱和說明必填，兩者都有字數上限，也不
 
 ---
 
-## 步驟五：送出審核
+## 步驟五：在 Creators Market 建立貼圖
 
-1. 登入 [LINE Creators Market](https://creator.line.me/zh-hant/)，按「新增」，選「貼圖」
-2. 在「顯示資訊」先填英文資料，再新增中文（繁體），把步驟四的文字一格一格貼上
-3. 在「貼圖圖片」選好張數，按「編輯」，再按「上傳 ZIP 檔」
-4. 在「販售資訊」設定價格和販售地區
-5. 按「申請審核」
+1. 用電腦登入 [LINE Creators Market](https://creator.line.me/zh-hant/)
+2. 第一次使用的話，會先要求登錄創作者資料（名稱、聯絡資訊等）並同意使用條款，照畫面填完即可
+3. 按「新增」，選「貼圖」
+4. 在「顯示資訊」先填英文資料，再新增中文（繁體），把步驟四的文字一格一格貼上
 
-<!-- 截圖：上傳 ZIP 的位置 -->
-<!-- 截圖：申請審核按鈕 -->
+![line-creators-new-sticker.png](line-creators-new-sticker.png "在 Creators Market 新增貼圖")
+<!-- 截圖：Creators Market 我的頁面，框出「新增」按鈕與「貼圖」選項（右上角帳號名稱、Email 請打馬賽克） -->
+
+![line-creators-display-info.png](line-creators-display-info.png "顯示資訊：先填英文，再新增中文（繁體）")
+<!-- 截圖：「顯示資訊」頁面，框出貼圖名稱、說明、版權標示欄位與新增語言的位置 -->
 
 用手機的話，記得用 Chrome 或 Safari 打開，**LINE 內建的瀏覽器傳不了檔案**。
 
-送出審核之前，我自己會再看一次：張數對不對、背景是不是透明、字有沒有寫錯。ChatGPT 偶爾會寫錯字，記得一張一張檢查。
+---
+
+## 步驟六：上傳圖片並送出審核
+
+1. 在「貼圖圖片」選好張數，按「編輯」，再按「上傳 ZIP 檔」
+2. 上傳後檢查每一格的預覽：張數對不對、背景是不是透明、字有沒有寫錯
+3. 找到「是否使用 AI」的設定（英文介面是 **Use of AI**），選擇有使用 AI
+4. 在「販售資訊」設定價格和販售地區
+5. 按「申請審核」
+
+![line-creators-upload-zip.png](line-creators-upload-zip.png "在「貼圖圖片」上傳 ZIP 檔")
+<!-- 截圖：「貼圖圖片」頁面，框出張數選單與「上傳 ZIP 檔」按鈕；上傳完成的預覽畫面更好 -->
+
+![line-creators-request-review.png](line-creators-request-review.png "設定好使用 AI 與販售資訊後，按「申請審核」")
+<!-- 截圖：框出「使用 AI」設定與「申請審核」按鈕（如果不在同一頁，請截兩張，第二張檔名用 line-creators-ai-setting.png） -->
+
+{{< alert icon="triangle-exclamation" >}}
+LINE 規定用 AI 畫的貼圖要勾選使用 AI，販售頁面會標示 AI 圖示。模仿知名角色或別人作品的畫風、名稱寫成「○○風」都不能上架；LINE 也可能要求提供當初的提示詞，記得把 ChatGPT 的對話留著。
+{{< /alert >}}
+
+送出審核之前，我自己會再看一次。除了錯字，以下幾種也容易被退件，可以對照 [LINE 貼圖審查準則](https://creator.line.me/zh-hant/review_guideline/)：
+
+- 整張只有文字、沒有角色
+- 日常聊天用不太到的圖
+- 字太小、圖太細長，在聊天室裡看不清楚
+- 封面（main）和小圖示（tab）跟貼圖內容對不起來
 
 {{< alert icon="triangle-exclamation" >}}
 角色用自己的照片沒問題；用家人、朋友、小孩的照片要先問過對方。藝人、名人的照片和別人的卡通角色都不能用。
@@ -168,7 +201,10 @@ LINE 規定英文版的名稱和說明必填，兩者都有字數上限，也不
 送出後，可以在 LINE Creators Market 的貼圖列表查看目前的審核狀態。
 
 - **審核通過**：狀態會變成「承認」，但貼圖不會自動上架，需要自己按下「發售」才會開始販售。
-- **審核未通過**：LINE 會寄信說明退件原因。依照原因修改後，可以再次申請審核。
+- **審核未通過**：LINE 會寄信說明退件原因，在 Creators Market 的貼圖頁面也看得到。依照原因修改後，可以再次申請審核。
+
+![line-creators-review-status.png](line-creators-review-status.png "貼圖列表裡的審核狀態")
+<!-- 截圖：Creators Market 貼圖列表顯示審核狀態，審核通過後框出「發售」按鈕 -->
 
 
 ---
@@ -177,6 +213,8 @@ LINE 規定英文版的名稱和說明必填，兩者都有字數上限，也不
 
 - [xxsunxxsun／line-Cut_Picture](https://github.com/xxsunxxsun/line-Cut_Picture)：用九宮格產生貼圖、先用淺灰色背景再去背、只去除外圍背景以保留內部白色、封面與小圖示的挑圖原則，這些做法，是參考這個開源專案的概念。它是一套網頁工具，我這篇改成全部交給 ChatGPT 處理。謝謝作者分享
 - [LINE Creators Market](https://creator.line.me/zh-hant/)
+- [LINE Creators Market 貼圖審查準則](https://creator.line.me/zh-hant/review_guideline/)
+- [LINE：關於 AI 生成內容](https://help.line.me/line/smartphone/?contentId=200001248)
 
 ---
 
