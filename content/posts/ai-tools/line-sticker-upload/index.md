@@ -191,12 +191,13 @@ LINE 規定用 AI 畫的貼圖要選「使用AI」，販售頁面會標示 AI �
 
 1. 在「貼圖圖片」按「編輯」，進入「編輯貼圖」頁面後，在「變更貼圖張數」選好張數，再按「上傳壓縮檔」，選剛剛 ChatGPT 打包好的 ZIP。如果前面是用手機操作 ChatGPT，可以在電腦打開同一個對話下載 ZIP
 2. 上傳後檢查每一格的預覽：張數對不對、字有沒有寫錯。「更換背景色確認去背處理」可以換預覽的底色，換幾個顏色看看邊緣有沒有殘留背景
-3. 按「申請審核」
+3. 回到「項目管理」，可以先按「預覽」看看在聊天室裡的樣子，確認沒問題再按「送出申請」
+
+畫面上方如果出現「您未登錄匯款帳戶資訊」的提醒，代表還沒填收款資料。送審不受影響，但之後要收到販售的分潤，需要到左邊選單的「帳號設定」>「匯款帳戶資訊」登錄。
 
 ![line-creators-upload-zip.png](line-creators-upload-zip.png "在「編輯貼圖」選張數、按「上傳壓縮檔」，再換底色檢查去背")
 
-![line-creators-request-review.png](line-creators-request-review.png "確認無誤後，按「申請審核」")
-<!-- 截圖（電腦畫面）：框出「申請審核」按鈕 -->
+![line-creators-request-review.png](line-creators-request-review.png "按「預覽」確認後，按「送出申請」；上方的黃色提醒是還沒登錄匯款帳戶")
 
 送出審核之前，我自己會再看一次。除了錯字，以下幾種也容易被退件，可以對照 [LINE 貼圖審查準則](https://creator.line.me/zh-hant/review_guideline/)：
 
@@ -216,7 +217,7 @@ LINE 規定用 AI 畫的貼圖要選「使用AI」，販售頁面會標示 AI �
 送出後，可以在 LINE Creators Market 的貼圖列表查看目前的審核狀態。審核需要的時間不固定，送審的人多時會比較久，Creators Market 首頁的「最新資訊」偶爾會公告審核延遲。
 
 - **審核通過**：狀態會變成「承認」，但貼圖不會自動上架，需要自己按下「發售」才會開始販售。
-- **審核未通過**：LINE 會寄信說明退件原因，在 Creators Market 的貼圖頁面也看得到。依照原因修改後，可以再次申請審核。
+- **審核未通過**：LINE 會寄信說明退件原因，在 Creators Market 的貼圖頁面也看得到。依照原因修改後，可以再次送出申請。
 
 ![line-creators-review-status.png](line-creators-review-status.png "貼圖列表裡的審核狀態")
 <!-- 截圖（電腦畫面）：Creators Market 貼圖列表顯示審核狀態，審核通過後框出「發售」按鈕 -->
