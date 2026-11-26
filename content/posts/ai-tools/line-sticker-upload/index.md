@@ -121,8 +121,7 @@ LINE 對貼圖有明確的規格要求，我整理成一張表，後面的提示
 不要變形，做好給我下載。
 ```
 
-![chatgpt-sticker-main-tab.png](chatgpt-sticker-main-tab.png "做好的 main.png 和 tab.png")
-<!-- 截圖：ChatGPT 回覆的 main.png 與 tab.png 預覽和下載連結 -->
+![chatgpt-sticker-main-tab.png](chatgpt-sticker-main-tab.png "ChatGPT 做好 main.png 和 tab.png，點檔名就能下載")
 
 最後把挑好的貼圖（例如 `01.png` 到 `32.png`）和 `main.png`、`tab.png` 放在一起，壓成一個 ZIP，裡面不要再包一層資料夾。如果挑完之後編號中間有缺號，可以請 ChatGPT 重新編號：「請把這些貼圖依檔名順序重新編號成 01.png 開始，和 main.png、tab.png 一起打包成 ZIP，ZIP 裡不要有資料夾。」
 
