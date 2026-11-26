@@ -189,12 +189,11 @@ LINE 規定用 AI 畫的貼圖要選「使用AI」，販售頁面會標示 AI �
 
 ## 步驟六：上傳圖片並送出審核
 
-1. 在「貼圖圖片」選好張數，按「編輯」，再按「上傳 ZIP 檔」，選剛剛 ChatGPT 打包好的 ZIP。如果前面是用手機操作 ChatGPT，可以在電腦打開同一個對話下載 ZIP
-2. 上傳後檢查每一格的預覽：張數對不對、背景是不是透明、字有沒有寫錯
+1. 在「貼圖圖片」按「編輯」，進入「編輯貼圖」頁面後，在「變更貼圖張數」選好張數，再按「上傳壓縮檔」，選剛剛 ChatGPT 打包好的 ZIP。如果前面是用手機操作 ChatGPT，可以在電腦打開同一個對話下載 ZIP
+2. 上傳後檢查每一格的預覽：張數對不對、字有沒有寫錯。「更換背景色確認去背處理」可以換預覽的底色，換幾個顏色看看邊緣有沒有殘留背景
 3. 按「申請審核」
 
-![line-creators-upload-zip.png](line-creators-upload-zip.png "在「貼圖圖片」上傳 ZIP 檔")
-<!-- 截圖（電腦畫面）：「貼圖圖片」頁面，框出張數選單與「上傳 ZIP 檔」按鈕；上傳完成的預覽畫面更好 -->
+![line-creators-upload-zip.png](line-creators-upload-zip.png "在「編輯貼圖」選張數、按「上傳壓縮檔」，再換底色檢查去背")
 
 ![line-creators-request-review.png](line-creators-request-review.png "確認無誤後，按「申請審核」")
 <!-- 截圖（電腦畫面）：框出「申請審核」按鈕 -->
