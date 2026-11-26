@@ -11,8 +11,7 @@ topics = ['AI 省時小工具']
 
 都說有 AI 能夠自己畫圖，不如就來自己做 LINE 貼圖吧！現在 ChatGPT 不僅能畫圖，切圖、去背、做封面也能一手包辦，我只負責複製貼上、按下載。下面是我整理出來的流程跟提示詞，替換成自己需要的元素，讓我們一步一步操作。
 
-![line-sticker-sample.png](line-sticker-sample.png "用這個流程做出來的貼圖")
-<!-- 截圖：作者上架成功的貼圖，例如 LINE 貼圖小舖的貼圖頁面，或在聊天室裡使用的畫面（聊天對象的名字、頭像請打馬賽克） -->
+![line-sticker-sample.png](line-sticker-sample.png "用這個流程做出來的卡皮巴拉貼圖")
 
 ---
 
