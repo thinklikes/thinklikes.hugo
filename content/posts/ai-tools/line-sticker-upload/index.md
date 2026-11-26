@@ -131,6 +131,8 @@ LINE 對貼圖有明確的規格要求，我整理成一張表，後面的提示
 2. ZIP 裡直接放檔案，不要再包一層資料夾
 ```
 
+![chatgpt-sticker-upload-zip.png](chatgpt-sticker-upload-zip.png "打包好的 ZIP：貼圖重新編號，加上 main.png 和 tab.png，裡面沒有資料夾")
+
 ---
 
 ## 步驟四：準備上架文字
