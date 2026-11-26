@@ -97,8 +97,7 @@ LINE 對貼圖有明確的規格要求，我整理成一張表，後面的提示
 
 如果 ChatGPT 重新畫了一張圖，而不是處理檔案，請補上這句：「不要畫圖，用 Python 處理我上傳的檔案。」
 
-![chatgpt-sticker-split-preview.png](chatgpt-sticker-split-preview.png "ChatGPT 切好的縮圖與 ZIP 下載連結")
-<!-- 截圖：ChatGPT 回覆的 9 張縮圖，以及下方的 ZIP 下載連結（請把下載連結框起來） -->
+![chatgpt-sticker-split-preview.png](chatgpt-sticker-split-preview.png "ChatGPT 切好後，會附上 ZIP 下載連結")
 
 如果裁切結果不理想，可以用以下提示詞修正：
 
