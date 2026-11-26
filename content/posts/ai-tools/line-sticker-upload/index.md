@@ -123,11 +123,13 @@ LINE 對貼圖有明確的規格要求，我整理成一張表，後面的提示
 
 ![chatgpt-sticker-main-tab.png](chatgpt-sticker-main-tab.png "ChatGPT 做好 main.png 和 tab.png，點檔名就能下載")
 
-最後要把挑好的貼圖（例如 `01.png` 到 `32.png`）和 `main.png`、`tab.png` 放進同一個 ZIP，裡面不要再包一層資料夾。用手機不方便自己壓縮，可以把前面下載的 ZIP 和 `main.png`、`tab.png` 一起上傳到 ChatGPT，請它打包：
+main.png 和 tab.png 做好之後，直接在同一個對話請 ChatGPT 把全部檔案打包成一個 ZIP。貼圖如果是分好幾組切的，先把前面下載的 ZIP 都上傳到這個對話，再貼上：
 
 ```text
-這幾個 ZIP 裡的貼圖，我只要【01、02、04、05……】這幾張。
-請依原本的順序重新編號成 01.png 開始，和 main.png、tab.png 一起打包成一個 ZIP，ZIP 裡不要有資料夾。
+請把剛剛做好的 main.png、tab.png，和我上傳的貼圖一起打包成一個 ZIP：
+
+1. 貼圖只要【01、02、04、05……】這幾張，依原本的順序重新編號成 01.png 開始
+2. ZIP 裡直接放檔案，不要再包一層資料夾
 ```
 
 ---
