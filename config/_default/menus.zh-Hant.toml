@@ -26,7 +26,7 @@ pageRef = "tags"
 weight = 30
 
 [[main]]
-name = "關於我"
+name = "About"
 pageRef = "about"
 weight = 40
 
