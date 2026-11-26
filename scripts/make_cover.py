@@ -60,7 +60,28 @@ def icon_web(d, cx, cy, c):
     d.line([(cx + 12, cy - 22), (cx - 12, cy + 48)], fill=c, width=w)
 
 
-ICONS = {"lock": icon_lock, "sticker": icon_sticker, "web": icon_web}
+def icon_menu(d, cx, cy, c):
+    """圖文選單：兩列兩欄的格子。"""
+    d.rounded_rectangle([cx - 105, cy - 80, cx + 105, cy + 80], 26, fill=c)
+    w, h, g = 82, 56, 14
+    x0 = cx - (2 * w + g) // 2
+    y0 = cy - (2 * h + g) // 2
+    for r in range(2):
+        for k in range(2):
+            x = x0 + k * (w + g)
+            y = y0 + r * (h + g)
+            d.rounded_rectangle([x, y, x + w, y + h], 10, fill="white")
+
+
+def icon_chat(d, cx, cy, c):
+    """聊天機器人：對話框加三個點。"""
+    d.rounded_rectangle([cx - 110, cy - 85, cx + 110, cy + 65], 40, fill=c)
+    d.polygon([(cx - 60, cy + 55), (cx - 20, cy + 55), (cx - 70, cy + 110)], fill=c)
+    for dx in (-55, 0, 55):
+        d.ellipse([cx + dx - 16, cy - 26, cx + dx + 16, cy + 6], fill="white")
+
+
+ICONS = {"lock": icon_lock, "sticker": icon_sticker, "web": icon_web, "menu": icon_menu, "chat": icon_chat}
 
 
 def main():
