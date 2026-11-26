@@ -168,6 +168,8 @@ LINE 規定英文版的標題和貼圖說明必填，標題最多 40 個字元�
 2. 「標題」和「貼圖說明」先填英文，把步驟四的英文文字貼上
 3. 在「新增語言」的選單裡選 **Chinese (Traditional)**（選單的語言名稱是英文），按「新增」，再貼上中文的標題和說明
 
+![line-creators-add-language.png](line-creators-add-language.png "「新增語言」選單裡選 Chinese (Traditional)，再按「新增」")
+
 ![line-creators-display-info.png](line-creators-display-info.png "貼圖類型選「貼圖」，填好英文和中文（繁體）的標題與說明")
 
 往下捲到「販售資訊」：
