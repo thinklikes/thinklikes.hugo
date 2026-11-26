@@ -218,13 +218,12 @@ LINE 規定用 AI 畫的貼圖要選「使用AI」，販售頁面會標示 AI �
 
 ## 送出審核之後
 
-送出後，可以在 LINE Creators Market 的貼圖列表查看目前的審核狀態。審核需要的時間不固定，送審的人多時會比較久，Creators Market 首頁的「最新資訊」偶爾會公告審核延遲。
+送出後，「項目管理」的狀態會變成「等待審核」，之後也可以從這裡查看審核進度。審核需要的時間不固定，送審的人多時會比較久，Creators Market 首頁的「最新資訊」偶爾會公告審核延遲。
 
 - **審核通過**：狀態會變成「承認」，但貼圖不會自動上架，需要自己按下「發售」才會開始販售。
 - **審核未通過**：LINE 會寄信說明退件原因，在 Creators Market 的貼圖頁面也看得到。依照原因修改後，可以再次送出申請。
 
-![line-creators-review-status.png](line-creators-review-status.png "貼圖列表裡的審核狀態")
-<!-- 截圖（電腦畫面）：Creators Market 貼圖列表顯示審核狀態，審核通過後框出「發售」按鈕 -->
+![line-creators-review-status.png](line-creators-review-status.png "送出後，狀態變成「等待審核」")
 
 
 ---
