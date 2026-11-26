@@ -61,7 +61,7 @@ LINE 對貼圖有明確的規格要求，我整理成一張表，後面的提示
 ```
 
 ![chatgpt-sticker-grid.png](chatgpt-sticker-grid.png "ChatGPT 畫出來的九宮格，貼圖之間留有空隙")
-<!-- 截圖：ChatGPT 對話裡產出的九宮格大圖（含上方的提示詞更好） -->
+
 
 以上架 32 張為例，可以畫 4 組共 36 張，再從中挑選 32 張。
 
