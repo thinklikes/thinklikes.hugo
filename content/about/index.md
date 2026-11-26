@@ -12,7 +12,9 @@ showAuthor = true
 
 ## 我是誰
 
-一個中年 CRUD 工程師。寫程式寫了【作者補：年資】年，平常的工作是【作者補：目前的職務或技術領域，例如用什麼語言、做哪類系統】。
+一個中年 CRUD 工程師，職稱是後端工程師。從第一份工作在傳產公司寫 ERP 開始，到現在寫程式寫了十四年，做過支付系統、後台報表 API 這類後端服務。
+
+平常用的是 PHP 和 Golang，框架是 Laravel 和 Gin，資料庫是 MySQL 和 PostgreSQL，再加上 Redis、RabbitMQ，開發環境習慣用 Docker 包起來。
 
 前陣子經歷了一場中年求職，履歷石沉大海、被面試官各種嫌棄，最後幸運地來到現在這間公司。原本以為可以安穩刷 ticket，結果才剛按下冒險的 Start 按鍵。
 
@@ -31,7 +33,7 @@ showAuthor = true
 ## 找到我
 
 - GitHub：[thinklikes](https://github.com/thinklikes)
-- 【作者補：其他想公開的聯絡方式，例如 email 或聯絡表單；不需要可刪掉這行】
+- 個人網站：[thinklikes.github.io](https://thinklikes.github.io/)
 
 ---
 
