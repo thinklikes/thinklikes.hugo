@@ -1,8 +1,8 @@
 +++
 date = '2026-11-26'
 draft = true
-title = 'AI 省時小工具（4） - 用 ChatGPT 做 LINE 官方帳號的圖文選單'
-description = '請 ChatGPT 畫好選單圖片並裁成 LINE 規定的尺寸，再到官方帳號後台設定每個按鈕，客人一打開聊天室就看得到。'
+title = 'AI 省時小工具（4） - 不會設計也能做：用 AI 畫出 LINE 官方帳號的圖文選單'
+description = '請 AI 畫好選單圖片並裁成 LINE 規定的尺寸，再到官方帳號後台設定每個按鈕，客人一打開聊天室就看得到。'
 tags = ['LINE 官方帳號', 'ChatGPT', '圖文選單']
 topics = ['AI 省時小工具']
 +++
