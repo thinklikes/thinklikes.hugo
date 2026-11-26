@@ -161,8 +161,7 @@ LINE 規定英文版的名稱和說明必填，兩者都有字數上限，也不
 3. 按「新增」，選「貼圖」
 4. 在「顯示資訊」先填英文資料，再新增中文（繁體），把步驟四的文字一格一格貼上
 
-![line-creators-new-sticker.png](line-creators-new-sticker.png "在 Creators Market 新增貼圖")
-<!-- 截圖（電腦畫面）：Creators Market 我的頁面，框出「新增」按鈕與「貼圖」選項（帳號名稱、Email 請打馬賽克） -->
+![line-creators-new-sticker.png](line-creators-new-sticker.png "登入後在「個人頁面」按左上角的「新增」")
 
 ![line-creators-display-info.png](line-creators-display-info.png "顯示資訊：先填英文，再新增中文（繁體）")
 <!-- 截圖（電腦畫面）：「顯示資訊」頁面，框出貼圖名稱、說明、版權標示欄位與新增語言的位置 -->
