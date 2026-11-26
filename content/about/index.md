@@ -34,6 +34,7 @@ showAuthor = true
 
 - GitHub：[thinklikes](https://github.com/thinklikes)
 - 個人網站：[thinklikes.github.io](https://thinklikes.github.io/)
+- Email：[thinklikes@gmail.com](mailto:thinklikes@gmail.com)
 
 ---
 
