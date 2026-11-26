@@ -18,7 +18,7 @@ topics = ['AI 省時小工具']
 
 ## 動手前
 
-我用的是免費版 ChatGPT。免費版的畫圖、上傳檔案都有使用額度限制，額度用完時，可以隔一段時間再繼續，分幾次完成。上架要用 LINE 帳號登入 [LINE Creators Market](https://creator.line.me/zh-hant/)。整個流程用手機就能完成，下面的上架步驟也是用手機操作。
+我用的是免費版 ChatGPT。免費版的畫圖、上傳檔案都有使用額度限制，額度用完時，可以隔一段時間再繼續，分幾次完成。上架要用 LINE 帳號登入 [LINE Creators Market](https://creator.line.me/zh-hant/)。畫圖、切圖用手機就能完成；上架要用電腦的瀏覽器操作，手機版網頁目前找不到新增貼圖的地方。
 
 LINE 對貼圖有明確的規格要求，我整理成一張表，後面的提示詞都已經照這張表寫好了：
 
@@ -156,32 +156,32 @@ LINE 規定英文版的名稱和說明必填，兩者都有字數上限，也不
 
 ## 步驟五：在 Creators Market 建立貼圖
 
-1. 用手機的 Chrome 或 Safari 打開 [LINE Creators Market](https://creator.line.me/zh-hant/) 並登入。不要從 LINE 聊天室直接點開，**LINE 內建的瀏覽器傳不了檔案**
+1. 用電腦的瀏覽器打開 [LINE Creators Market](https://creator.line.me/zh-hant/) 並登入
 2. 第一次使用的話，會先要求登錄創作者資料（名稱、聯絡資訊等）並同意使用條款，照畫面填完即可
 3. 按「新增」，選「貼圖」
 4. 在「顯示資訊」先填英文資料，再新增中文（繁體），把步驟四的文字一格一格貼上
 
 ![line-creators-new-sticker.png](line-creators-new-sticker.png "在 Creators Market 新增貼圖")
-<!-- 截圖（手機畫面）：Creators Market 我的頁面，框出「新增」按鈕與「貼圖」選項（帳號名稱、Email 請打馬賽克） -->
+<!-- 截圖（電腦畫面）：Creators Market 我的頁面，框出「新增」按鈕與「貼圖」選項（帳號名稱、Email 請打馬賽克） -->
 
 ![line-creators-display-info.png](line-creators-display-info.png "顯示資訊：先填英文，再新增中文（繁體）")
-<!-- 截圖（手機畫面）：「顯示資訊」頁面，框出貼圖名稱、說明、版權標示欄位與新增語言的位置 -->
+<!-- 截圖（電腦畫面）：「顯示資訊」頁面，框出貼圖名稱、說明、版權標示欄位與新增語言的位置 -->
 
 ---
 
 ## 步驟六：上傳圖片並送出審核
 
-1. 在「貼圖圖片」選好張數，按「編輯」，再按「上傳 ZIP 檔」，從手機的檔案裡選剛剛 ChatGPT 打包好的 ZIP（iPhone 在「檔案」App，Android 通常在「下載」資料夾）
+1. 在「貼圖圖片」選好張數，按「編輯」，再按「上傳 ZIP 檔」，選剛剛 ChatGPT 打包好的 ZIP。如果前面是用手機操作 ChatGPT，可以在電腦打開同一個對話，再下載一次 ZIP
 2. 上傳後檢查每一格的預覽：張數對不對、背景是不是透明、字有沒有寫錯
 3. 找到「是否使用 AI」的設定（英文介面是 **Use of AI**），選擇有使用 AI
 4. 在「販售資訊」設定價格和販售地區
 5. 按「申請審核」
 
 ![line-creators-upload-zip.png](line-creators-upload-zip.png "在「貼圖圖片」上傳 ZIP 檔")
-<!-- 截圖（手機畫面）：「貼圖圖片」頁面，框出張數選單與「上傳 ZIP 檔」按鈕；上傳完成的預覽畫面更好 -->
+<!-- 截圖（電腦畫面）：「貼圖圖片」頁面，框出張數選單與「上傳 ZIP 檔」按鈕；上傳完成的預覽畫面更好 -->
 
 ![line-creators-request-review.png](line-creators-request-review.png "設定好使用 AI 與販售資訊後，按「申請審核」")
-<!-- 截圖（手機畫面）：框出「使用 AI」設定與「申請審核」按鈕（如果不在同一頁，請截兩張，第二張檔名用 line-creators-ai-setting.png） -->
+<!-- 截圖（電腦畫面）：框出「使用 AI」設定與「申請審核」按鈕（如果不在同一頁，請截兩張，第二張檔名用 line-creators-ai-setting.png） -->
 
 {{< alert icon="triangle-exclamation" >}}
 LINE 規定用 AI 畫的貼圖要勾選使用 AI，販售頁面會標示 AI 圖示。模仿知名角色或別人作品的畫風、名稱寫成「○○風」都不能上架；LINE 也可能要求提供當初的提示詞，記得把 ChatGPT 的對話留著。
@@ -208,7 +208,7 @@ LINE 規定用 AI 畫的貼圖要勾選使用 AI，販售頁面會標示 AI 圖�
 - **審核未通過**：LINE 會寄信說明退件原因，在 Creators Market 的貼圖頁面也看得到。依照原因修改後，可以再次申請審核。
 
 ![line-creators-review-status.png](line-creators-review-status.png "貼圖列表裡的審核狀態")
-<!-- 截圖（手機畫面）：Creators Market 貼圖列表顯示審核狀態，審核通過後框出「發售」按鈕 -->
+<!-- 截圖（電腦畫面）：Creators Market 貼圖列表顯示審核狀態，審核通過後框出「發售」按鈕 -->
 
 
 ---
