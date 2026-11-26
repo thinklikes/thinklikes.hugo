@@ -60,7 +60,20 @@ def icon_web(d, cx, cy, c):
     d.line([(cx + 12, cy - 22), (cx - 12, cy + 48)], fill=c, width=w)
 
 
-ICONS = {"lock": icon_lock, "sticker": icon_sticker, "web": icon_web}
+def icon_menu(d, cx, cy, c):
+    """圖文選單：兩列三欄的格子。"""
+    d.rounded_rectangle([cx - 115, cy - 85, cx + 115, cy + 85], 26, fill=c)
+    w, h, g = 60, 60, 12
+    x0 = cx - (3 * w + 2 * g) // 2
+    y0 = cy - (2 * h + g) // 2
+    for r in range(2):
+        for k in range(3):
+            x = x0 + k * (w + g)
+            y = y0 + r * (h + g)
+            d.rounded_rectangle([x, y, x + w, y + h], 10, fill="white")
+
+
+ICONS = {"lock": icon_lock, "sticker": icon_sticker, "web": icon_web, "menu": icon_menu}
 
 
 def main():

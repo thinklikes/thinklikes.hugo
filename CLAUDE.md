@@ -26,7 +26,7 @@
 3. 文章內不放系列規劃；**下集預告有條件允許**：僅在該篇內容寫不完、有未收尾的內容要留到下一篇時，才可在文中輕量帶過（只講未寫完的內容，不承諾題目與時程）。規劃文件的章節表不必照著做；文末固定加註「*本文由 AI 輔助潤稿*」。
 4. 每篇檢查 `docs/rag-series-plan.md` 的「寫作原則」與「排版與風格偏好」清單。
 
-## 目前進度（2026-11-23 更新）
+## 目前進度（2026-11-26 更新）
 
 - 第 1 篇已發布（2026-08-07）。
 - **第 2 篇已發布（2026-11-12，`draft = false`，PR #8 已合併）**（故事篇「沒有珍珠的奶茶不是珍珠奶茶，沒有資料的知識庫不是知識庫」）：兩個惡夢（寫入被拒、搜不到）加小結已成稿；top-k 漏資訊與調降重複判斷門檻移出，留給下一篇。小結由作者改寫（結論：建立 RAG 需要公司上下齊心協力，末尾預告服務啟用前的其他障礙，屬「寫不完」條件下的預告），不加「學到一課」、不收加薪哏。
@@ -36,5 +36,6 @@
 - PR #7（第 2 篇草稿、系列命名統一、規劃文件與 CLAUDE.md）已於 2026-11-09 合併；之後分支 `claude/new-session-syho52` 新增的 commit（刪除素材草稿、第 3 篇構想、本檔進度）由 PR #9 合併進 master，待作者確認合併。
 - **下一篇構想（暫列第 3 篇，未動筆）**：無意中發現 SBE，整理出知識庫指引（A 篇）；QA 工作流（TARS）另開 B 篇。大綱草案與待補素材見規劃文件「第 3 篇（暫，構想中）」。第 2 篇小結的預告句與此篇的落差，作者決定先不處理。
 - **新系列「AI 省時小工具」**（給不懂技術的讀者，`content/posts/ai-tools/`）：第 1 篇 LINE 貼圖上架教學已發布（2026-11-16，`draft = false`，PR #10 已合併）。截圖待補，Creators Market 介面名稱尚未核對。兩篇封面（`feature.png`）都由 `scripts/make_cover.py` 產生（白底、灰色系列標籤、思源黑體 Bold、圖示用工具品牌色）。第 2 篇 GitHub 註冊與開啟 2FA 教學（`content/posts/ai-tools/github-signup-2fa/`）已發布（2026-11-23，`draft = false`，PR #11 已合併）。粉絲團推廣貼文（中立版）草稿在 `/mnt/project-files/drafts/fb-posts/`，貼文編號 002。第 3 篇「用 ChatGPT 串接 GitHub 做個人網站」（`content/posts/ai-tools/chatgpt-github-pages-website/`）`draft = false` 供 preview 站檢視，流程依作者提供的教學（預設 ChatGPT 可直接推送 commit），Repository 用 `帳號.github.io` 自動上線，文中不提 GitHub Pages 名詞，截圖齊全（作者實測 ChatGPT 可直接推送到 main）；封面新增 `web` 圖示（GitHub 藍 0969da）。
+- 「AI 省時小工具」第 4 篇「用 ChatGPT 做 LINE 官方帳號的圖文選單」（`content/posts/ai-tools/line-oa-rich-menu/`）草稿中（`draft = true`）。原想開「LINE 官方帳號」獨立系列，討論後先放進本系列，寫兩三篇反應好再獨立；下一篇預計 Make 做 LINE Bot，沿用同一個示範帳號。新規則：教學文先錄操作影片轉 GIF 放文章開頭當 demo（先秀成品），錄影腳本在 `/mnt/project-files/line-richmenu/recording-script.md`；封面新增 `menu` 圖示（LINE 綠 06c755）。
 - **網站 icon 統一用「一個人使用電腦」那張**（`assets/img/avatar.png`）：favicon、apple-touch-icon、作者頭像、og:image、封面左下角頭像（`scripts/cover-avatar.png`）都用它，不用戴耳機的卡通頭像（PR #15）。
 - side project 下一個里程碑：手刻 RAG 開工（Ollama + Chroma 跑起來）。
