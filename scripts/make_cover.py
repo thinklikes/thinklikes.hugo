@@ -60,7 +60,16 @@ def icon_web(d, cx, cy, c):
     d.line([(cx + 12, cy - 22), (cx - 12, cy + 48)], fill=c, width=w)
 
 
-ICONS = {"lock": icon_lock, "sticker": icon_sticker, "web": icon_web}
+def icon_shop(d, cx, cy, c):
+    """購物袋，代表販售商品。"""
+    d.arc([cx - 55, cy - 120, cx + 55, cy - 10], 180, 360, fill=c, width=22)
+    d.rounded_rectangle([cx - 100, cy - 60, cx + 100, cy + 110], 24, fill=c)
+    d.ellipse([cx - 66, cy - 42, cx - 44, cy - 20], fill="white")
+    d.ellipse([cx + 44, cy - 42, cx + 66, cy - 20], fill="white")
+    d.arc([cx - 50, cy - 10, cx + 50, cy + 70], 20, 160, fill="white", width=14)
+
+
+ICONS = {"lock": icon_lock, "sticker": icon_sticker, "web": icon_web, "shop": icon_shop}
 
 
 def main():
